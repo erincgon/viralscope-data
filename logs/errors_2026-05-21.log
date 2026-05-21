@@ -1,0 +1,2 @@
+2026-05-21 13:44:50.600 | ERROR    | sources.base:run:50 | Scraper google_trends failed: Cannot connect to host trends.google.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:41.412 | ERROR    | sources.base:run:50 | Scraper google_trends failed: 404, message='Not Found', url='https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'

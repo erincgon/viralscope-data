@@ -1,0 +1,128 @@
+2026-05-21 13:44:42.229 | INFO     | utils.logger:setup_logging:66 | Logging initialized
+2026-05-21 13:44:42.233 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/trends.json
+2026-05-21 13:44:42.233 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/free.json
+2026-05-21 13:44:42.233 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/premium.json
+2026-05-21 13:44:42.233 | INFO     | exporters.json_exporter:export_all:54 | Export complete: 5 trends → free(3), premium(5), master(5)
+2026-05-21 13:44:42.233 | INFO     | __main__:export_sample:321 | Sample exports generated: {'trends': PosixPath('/Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/trends.json'), 'free': PosixPath('/Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/free.json'), 'premium': PosixPath('/Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/premium.json')}
+2026-05-21 13:44:44.106 | INFO     | utils.logger:setup_logging:66 | Logging initialized
+2026-05-21 13:44:44.107 | INFO     | __main__:run_pipeline:43 | ============================================================
+2026-05-21 13:44:44.107 | INFO     | __main__:run_pipeline:44 | ViralScope Engine pipeline started
+2026-05-21 13:44:44.107 | INFO     | __main__:run_pipeline:45 | ============================================================
+2026-05-21 13:44:44.107 | INFO     | sources.base:run:43 | Starting scraper: google_trends
+2026-05-21 13:44:44.122 | INFO     | sources.base:run:43 | Starting scraper: youtube_trending
+2026-05-21 13:44:44.136 | INFO     | sources.base:run:43 | Starting scraper: reddit_trending
+2026-05-21 13:44:44.149 | INFO     | sources.base:run:43 | Starting scraper: tiktok_discovery
+2026-05-21 13:44:44.161 | INFO     | sources.base:run:43 | Starting scraper: ai_creator_trends
+2026-05-21 13:44:44.297 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:44.313 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host trends.google.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:44.381 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host ads.tiktok.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')]
+2026-05-21 13:44:44.656 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:45.683 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:46.493 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:46.499 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host trends.google.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:46.584 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host ads.tiktok.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')]
+2026-05-21 13:44:46.966 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:48.959 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:50.600 | ERROR    | sources.base:run:50 | Scraper google_trends failed: Cannot connect to host trends.google.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:50.601 | INFO     | sources.base:run:43 | Starting scraper: shorts_reels_niches
+2026-05-21 13:44:50.743 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:50.744 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:51.594 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host www.tiktok.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:51.808 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:52.852 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:52.861 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:54.231 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host www.tiktok.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:55.857 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:56.975 | INFO     | sources.base:run:45 | Scraper shorts_reels_niches completed: 8 trends
+2026-05-21 13:44:56.976 | INFO     | sources.base:run:43 | Starting scraper: emerging_creator_topics
+2026-05-21 13:44:57.072 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:57.085 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:57.269 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:58.621 | INFO     | sources.base:run:45 | Scraper tiktok_discovery completed: 8 trends
+2026-05-21 13:44:59.140 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:44:59.179 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:02.841 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:03.392 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:05.499 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:05.715 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:07.553 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:08.978 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:09.407 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:09.726 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 1/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:11.829 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:11.839 | WARNING  | utils.retry:wrapper:81 | get_json failed (attempt 2/3): Cannot connect to host www.reddit.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:13.693 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host hnrss.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:15.538 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:15.946 | INFO     | sources.base:run:45 | Scraper reddit_trending completed: 0 trends
+2026-05-21 13:45:17.116 | INFO     | sources.base:run:45 | Scraper ai_creator_trends completed: 5 trends
+2026-05-21 13:45:17.971 | INFO     | sources.base:run:45 | Scraper emerging_creator_topics completed: 8 trends
+2026-05-21 13:45:18.855 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): Cannot connect to host www.youtube.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')]
+2026-05-21 13:45:24.127 | INFO     | sources.base:run:45 | Scraper youtube_trending completed: 0 trends
+2026-05-21 13:45:24.128 | INFO     | __main__:run_pipeline:49 | Collected 29 raw trend signals
+2026-05-21 13:45:24.128 | INFO     | __main__:run_pipeline:53 | After deduplication: 29 unique trends
+2026-05-21 13:45:24.138 | INFO     | __main__:run_pipeline:58 | Scoring complete — avg viral score: 60.7
+2026-05-21 13:45:24.138 | WARNING  | analyzers.ai_analyzer:enrich_trends:38 | AI analysis disabled — skipping enrichment
+2026-05-21 13:45:24.139 | INFO     | __main__:run_pipeline:64 | AI enrichment complete
+2026-05-21 13:45:24.143 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/trends.json
+2026-05-21 13:45:24.145 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/free.json
+2026-05-21 13:45:24.147 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/premium.json
+2026-05-21 13:45:24.147 | INFO     | exporters.json_exporter:export_all:54 | Export complete: 29 trends → free(3), premium(29), master(29)
+2026-05-21 13:45:24.147 | INFO     | __main__:run_pipeline:83 | Pipeline completed in 40.0s — 29 trends exported
+2026-05-21 13:45:33.807 | INFO     | utils.logger:setup_logging:66 | Logging initialized
+2026-05-21 13:45:33.808 | INFO     | __main__:run_pipeline:43 | ============================================================
+2026-05-21 13:45:33.808 | INFO     | __main__:run_pipeline:44 | ViralScope Engine pipeline started
+2026-05-21 13:45:33.808 | INFO     | __main__:run_pipeline:45 | ============================================================
+2026-05-21 13:45:33.808 | INFO     | sources.base:run:43 | Starting scraper: google_trends
+2026-05-21 13:45:33.831 | INFO     | sources.base:run:43 | Starting scraper: youtube_trending
+2026-05-21 13:45:33.852 | INFO     | sources.base:run:43 | Starting scraper: reddit_trending
+2026-05-21 13:45:33.872 | INFO     | sources.base:run:43 | Starting scraper: tiktok_discovery
+2026-05-21 13:45:33.893 | INFO     | sources.base:run:43 | Starting scraper: ai_creator_trends
+2026-05-21 13:45:34.384 | INFO     | sources.base:run:45 | Scraper youtube_trending completed: 12 trends
+2026-05-21 13:45:34.385 | INFO     | sources.base:run:43 | Starting scraper: shorts_reels_niches
+2026-05-21 13:45:34.546 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 1/3): 404, message='Not Found', url='https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
+2026-05-21 13:45:34.890 | INFO     | sources.base:run:45 | Scraper shorts_reels_niches completed: 13 trends
+2026-05-21 13:45:34.891 | INFO     | sources.base:run:43 | Starting scraper: emerging_creator_topics
+2026-05-21 13:45:35.487 | INFO     | sources.base:run:45 | Scraper ai_creator_trends completed: 15 trends
+2026-05-21 13:45:35.590 | INFO     | sources.base:run:45 | Scraper tiktok_discovery completed: 10 trends
+2026-05-21 13:45:36.186 | INFO     | sources.base:run:45 | Scraper emerging_creator_topics completed: 14 trends
+2026-05-21 13:45:37.050 | WARNING  | utils.retry:wrapper:81 | get failed (attempt 2/3): 404, message='Not Found', url='https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
+2026-05-21 13:45:37.509 | INFO     | sources.base:run:45 | Scraper reddit_trending completed: 21 trends
+2026-05-21 13:45:41.412 | ERROR    | sources.base:run:50 | Scraper google_trends failed: 404, message='Not Found', url='https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
+2026-05-21 13:45:41.413 | INFO     | __main__:run_pipeline:49 | Collected 85 raw trend signals
+2026-05-21 13:45:41.413 | INFO     | __main__:run_pipeline:53 | After deduplication: 83 unique trends
+2026-05-21 13:45:41.422 | INFO     | __main__:run_pipeline:58 | Scoring complete — avg viral score: 56.0
+2026-05-21 13:45:41.423 | WARNING  | analyzers.ai_analyzer:enrich_trends:38 | AI analysis disabled — skipping enrichment
+2026-05-21 13:45:41.423 | INFO     | __main__:run_pipeline:64 | AI enrichment complete
+2026-05-21 13:45:41.432 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/trends.json
+2026-05-21 13:45:41.433 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/free.json
+2026-05-21 13:45:41.437 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/premium.json
+2026-05-21 13:45:41.437 | INFO     | exporters.json_exporter:export_all:54 | Export complete: 83 trends → free(3), premium(83), master(83)
+2026-05-21 13:45:41.437 | INFO     | __main__:run_pipeline:83 | Pipeline completed in 7.6s — 83 trends exported
+2026-05-21 13:45:48.894 | INFO     | utils.logger:setup_logging:66 | Logging initialized
+2026-05-21 13:45:48.895 | INFO     | __main__:run_pipeline:43 | ============================================================
+2026-05-21 13:45:48.895 | INFO     | __main__:run_pipeline:44 | ViralScope Engine pipeline started
+2026-05-21 13:45:48.895 | INFO     | __main__:run_pipeline:45 | ============================================================
+2026-05-21 13:45:48.895 | INFO     | sources.base:run:43 | Starting scraper: google_trends
+2026-05-21 13:45:48.919 | INFO     | sources.base:run:43 | Starting scraper: youtube_trending
+2026-05-21 13:45:48.940 | INFO     | sources.base:run:43 | Starting scraper: reddit_trending
+2026-05-21 13:45:48.960 | INFO     | sources.base:run:43 | Starting scraper: tiktok_discovery
+2026-05-21 13:45:48.980 | INFO     | sources.base:run:43 | Starting scraper: ai_creator_trends
+2026-05-21 13:45:49.218 | INFO     | sources.base:run:45 | Scraper youtube_trending completed: 12 trends
+2026-05-21 13:45:49.218 | INFO     | sources.base:run:43 | Starting scraper: shorts_reels_niches
+2026-05-21 13:45:49.480 | INFO     | sources.base:run:45 | Scraper google_trends completed: 10 trends
+2026-05-21 13:45:49.481 | INFO     | sources.base:run:43 | Starting scraper: emerging_creator_topics
+2026-05-21 13:45:49.655 | INFO     | sources.base:run:45 | Scraper shorts_reels_niches completed: 13 trends
+2026-05-21 13:45:49.826 | INFO     | sources.base:run:45 | Scraper ai_creator_trends completed: 15 trends
+2026-05-21 13:45:50.626 | INFO     | sources.base:run:45 | Scraper tiktok_discovery completed: 10 trends
+2026-05-21 13:45:51.739 | INFO     | sources.base:run:45 | Scraper emerging_creator_topics completed: 14 trends
+2026-05-21 13:45:52.368 | INFO     | sources.base:run:45 | Scraper reddit_trending completed: 21 trends
+2026-05-21 13:45:52.369 | INFO     | __main__:run_pipeline:49 | Collected 95 raw trend signals
+2026-05-21 13:45:52.369 | INFO     | __main__:run_pipeline:53 | After deduplication: 93 unique trends
+2026-05-21 13:45:52.379 | INFO     | __main__:run_pipeline:58 | Scoring complete — avg viral score: 57.6
+2026-05-21 13:45:52.379 | WARNING  | analyzers.ai_analyzer:enrich_trends:38 | AI analysis disabled — skipping enrichment
+2026-05-21 13:45:52.379 | INFO     | __main__:run_pipeline:64 | AI enrichment complete
+2026-05-21 13:45:52.387 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/trends.json
+2026-05-21 13:45:52.388 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/free.json
+2026-05-21 13:45:52.390 | INFO     | exporters.json_exporter:_write:138 | Wrote /Users/yakupgonca/Projects/ViralScope/ViralScope Engine/exports/premium.json
+2026-05-21 13:45:52.390 | INFO     | exporters.json_exporter:export_all:54 | Export complete: 93 trends → free(3), premium(93), master(93)
+2026-05-21 13:45:52.390 | INFO     | __main__:run_pipeline:83 | Pipeline completed in 3.5s — 93 trends exported
