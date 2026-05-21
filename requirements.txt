@@ -1,4 +1,4 @@
-# ViralScope Engine — Python Dependencies
+# ViralScope Engine — Python Dependencies (100% free, no paid APIs)
 # Python 3.12+
 
 requests>=2.31.0
@@ -6,8 +6,9 @@ aiohttp>=3.9.0
 certifi>=2024.0.0
 beautifulsoup4>=4.12.0
 pandas>=2.1.0
-openai>=1.12.0
-python-dotenv>=1.0.0
+pytrends>=4.9.0
+praw>=7.7.0
 fake-useragent>=1.5.0
+python-dotenv>=1.0.0
 schedule>=1.2.0
 loguru>=0.7.0

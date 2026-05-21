@@ -1,6 +1,6 @@
 """Trend analyzers."""
 
 from analyzers.scoring_engine import ScoringEngine
-from analyzers.ai_analyzer import AIAnalyzer
+from analyzers.content_generator import ContentGenerator
 
-__all__ = ["ScoringEngine", "AIAnalyzer"]
+__all__ = ["ScoringEngine", "ContentGenerator"]

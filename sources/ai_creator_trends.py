@@ -1,4 +1,4 @@
-"""AI and tech creator trend signals from public sources."""
+"""Creator economy and tech trend signals from public RSS (no AI APIs)."""
 
 from __future__ import annotations
 
@@ -9,41 +9,53 @@ from utils.http_client import AsyncHTTPClient
 
 
 class AICreatorTrendsScraper(BaseScraper):
-    """Aggregate AI creator trends from public RSS feeds and tech news."""
+    """Aggregate creator-economy trends from public RSS feeds (HN, curated)."""
 
     source_name = "ai_creator_trends"
 
     RSS_FEEDS: list[tuple[str, str]] = [
-        ("https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+ChatGPT", "Technology"),
-        ("https://hnrss.org/newest?q=creator+economy+OR+YouTube+Shorts", "Creator"),
-        ("https://hnrss.org/newest?q=Midjourney+OR+Runway+OR+Sora", "Technology"),
+        ("https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+faceless+channel", "Creator"),
+        ("https://hnrss.org/newest?q=creator+economy+OR+YouTube+Shorts+OR+monetization", "Creator"),
+        ("https://hnrss.org/newest?q=Midjourney+OR+Runway+OR+Sora+OR+CapCut", "Technology"),
+        ("https://hnrss.org/newest?q=UGC+OR+brand+deal+OR+sponsorship+creator", "Creator"),
     ]
 
-    CURATED_SIGNALS: list[tuple[str, str, str]] = [
+    CURATED_SIGNALS: list[tuple[str, str, str, str]] = [
         (
             "AI Avatar Channels",
             "Faceless AI-generated presenter channels gaining traction",
-            "YouTube",
+            "YouTube Shorts",
+            "extreme",
         ),
         (
             "ChatGPT Workflow Tutorials",
             "Step-by-step AI productivity content for creators",
             "TikTok",
+            "high",
         ),
         (
             "AI Thumbnail A/B Testing",
-            "Creators using AI to optimize click-through rates",
+            "Creators using automation to optimize click-through rates",
             "YouTube",
+            "high",
         ),
         (
             "Synthetic Voice Narration",
             "AI voiceover replacing traditional narration in shorts",
             "Short-Form",
+            "high",
         ),
         (
             "Prompt Engineering for Creators",
             "Teaching audiences how to use AI tools effectively",
             "Education",
+            "moderate",
+        ),
+        (
+            "UGC Brand Deal Negotiation",
+            "Creators sharing sponsorship rate transparency",
+            "TikTok",
+            "high",
         ),
     ]
 
@@ -69,24 +81,31 @@ class AICreatorTrendsScraper(BaseScraper):
                                 description=(
                                     desc_el.text.strip()[:200]
                                     if desc_el is not None and desc_el.text
-                                    else "AI creator economy signal"
+                                    else "Creator economy trend signal"
                                 ),
                                 best_platform="Multi-Platform",
-                                raw_signals={"signal_type": "ai_news", "feed": feed_url},
+                                raw_signals={
+                                    "signal_type": "ai_news",
+                                    "feed": feed_url,
+                                    "velocity_hint": "moderate",
+                                },
                             )
                         )
                 except Exception:
                     continue
 
-        for title, desc, platform in self.CURATED_SIGNALS:
+        for title, desc, platform, velocity in self.CURATED_SIGNALS:
             trends.append(
                 self._build_trend(
                     title=title,
                     category="Creator",
                     description=desc,
                     best_platform=platform,
-                    raw_signals={"signal_type": "curated_ai_trend"},
+                    raw_signals={
+                        "signal_type": "curated_ai_trend",
+                        "velocity_hint": velocity,
+                    },
                 )
             )
 
-        return ScraperResult(source=self.source_name, trends=trends[:15])
+        return ScraperResult(source=self.source_name, trends=trends[:18])

@@ -17,11 +17,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 class ScrapingSettings:
     """Scraping behavior configuration."""
 
-    request_timeout: int = 30
+    request_timeout: int = 25
     max_retries: int = 3
-    retry_delay: float = 2.0
+    retry_delay: float = 1.5
     retry_backoff: float = 2.0
-    concurrent_requests: int = 5
+    concurrent_requests: int = 4
     google_trends_geo: str = "US"
     reddit_subreddits: tuple[str, ...] = (
         "popular",
@@ -29,20 +29,13 @@ class ScrapingSettings:
         "TikTokCringe",
         "YouTube",
         "ContentCreation",
+        "socialmedia",
     )
     youtube_region: str = "US"
-
-
-@dataclass(frozen=True)
-class AISettings:
-    """OpenAI model configuration."""
-
-    api_key: str = ""
-    model: str = "gpt-4o-mini"
-    max_tokens: int = 1200
-    temperature: float = 0.7
-    batch_size: int = 5
-    enabled: bool = True
+    use_pytrends: bool = True
+    reddit_client_id: str = ""
+    reddit_client_secret: str = ""
+    reddit_user_agent: str = "ViralScopeEngine/2.0 (trend research)"
 
 
 @dataclass(frozen=True)
@@ -93,7 +86,6 @@ class Settings:
     """Root application settings."""
 
     scraping: ScrapingSettings = field(default_factory=ScrapingSettings)
-    ai: AISettings = field(default_factory=AISettings)
     export: ExportSettings = field(default_factory=ExportSettings)
     scheduler: SchedulerSettings = field(default_factory=SchedulerSettings)
     logging: LogSettings = field(default_factory=LogSettings)
@@ -102,26 +94,24 @@ class Settings:
     @classmethod
     def from_env(cls) -> Settings:
         """Build settings from environment variables."""
-        ai_key = os.getenv("OPENAI_API_KEY", "")
-        ai_enabled = os.getenv("AI_ANALYSIS_ENABLED", "true").lower() == "true"
+        reddit_id = os.getenv("REDDIT_CLIENT_ID", "")
+        reddit_secret = os.getenv("REDDIT_CLIENT_SECRET", "")
 
         return cls(
             scraping=ScrapingSettings(
-                request_timeout=int(os.getenv("REQUEST_TIMEOUT", "30")),
+                request_timeout=int(os.getenv("REQUEST_TIMEOUT", "25")),
                 max_retries=int(os.getenv("MAX_RETRIES", "3")),
-                retry_delay=float(os.getenv("RETRY_DELAY", "2.0")),
+                retry_delay=float(os.getenv("RETRY_DELAY", "1.5")),
                 retry_backoff=float(os.getenv("RETRY_BACKOFF", "2.0")),
-                concurrent_requests=int(os.getenv("CONCURRENT_REQUESTS", "5")),
+                concurrent_requests=int(os.getenv("CONCURRENT_REQUESTS", "4")),
                 google_trends_geo=os.getenv("GOOGLE_TRENDS_GEO", "US"),
                 youtube_region=os.getenv("YOUTUBE_REGION", "US"),
-            ),
-            ai=AISettings(
-                api_key=ai_key,
-                model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-                max_tokens=int(os.getenv("OPENAI_MAX_TOKENS", "1200")),
-                temperature=float(os.getenv("OPENAI_TEMPERATURE", "0.7")),
-                batch_size=int(os.getenv("AI_BATCH_SIZE", "5")),
-                enabled=ai_enabled and bool(ai_key),
+                use_pytrends=os.getenv("USE_PYTRENDS", "true").lower() == "true",
+                reddit_client_id=reddit_id,
+                reddit_client_secret=reddit_secret,
+                reddit_user_agent=os.getenv(
+                    "REDDIT_USER_AGENT", "ViralScopeEngine/2.0 (trend research)"
+                ),
             ),
             export=ExportSettings(
                 export_dir=Path(

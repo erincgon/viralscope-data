@@ -2,14 +2,15 @@
 """
 ViralScope Engine — Automated viral content trend intelligence system.
 
-Scrapes public trend signals, analyzes with AI, scores opportunities,
-and exports JSON feeds for the Flutter mobile app.
+Scrapes public trend signals, scores opportunities with rule-based analysis,
+generates creator content templates, and exports JSON feeds for the Flutter app.
 """
 
 from __future__ import annotations
 
 import argparse
 import asyncio
+import re
 import signal
 import sys
 import time
@@ -19,7 +20,7 @@ from typing import Any
 import schedule
 from loguru import logger
 
-from analyzers.ai_analyzer import AIAnalyzer
+from analyzers.content_generator import ContentGenerator
 from analyzers.scoring_engine import ScoringEngine
 from config.settings import get_settings
 from exporters.json_exporter import JSONExporter
@@ -34,21 +35,21 @@ class ViralScopeEngine:
     def __init__(self) -> None:
         self.settings = get_settings()
         self.scoring_engine = ScoringEngine()
-        self.ai_analyzer = AIAnalyzer()
+        self.content_generator = ContentGenerator()
         self.exporter = JSONExporter()
 
     async def run_pipeline(self) -> dict[str, Any]:
         """Execute the full scrape → analyze → score → export pipeline."""
         start = datetime.now(timezone.utc)
         logger.info("=" * 60)
-        logger.info("ViralScope Engine pipeline started")
+        logger.info("ViralScope Engine pipeline started (free / rule-based)")
         logger.info("=" * 60)
 
         # Phase 1: Scrape
         raw_trends, scraper_stats = await self._run_scrapers()
         logger.info(f"Collected {len(raw_trends)} raw trend signals")
 
-        # Phase 2: Deduplicate
+        # Phase 2: Deduplicate and merge cross-source signals
         trends = self._deduplicate(raw_trends)
         logger.info(f"After deduplication: {len(trends)} unique trends")
 
@@ -59,9 +60,9 @@ class ViralScopeEngine:
             f"Scoring complete — avg viral score: {analytics.get('avg_viral_score', 0)}"
         )
 
-        # Phase 4: AI enrichment
-        trends = await self.ai_analyzer.enrich_trends(trends)
-        logger.info("AI enrichment complete")
+        # Phase 4: Rule-based content enrichment
+        trends = self.content_generator.enrich_trends(trends)
+        logger.info("Content enrichment complete")
 
         # Phase 5: Export
         export_paths = self.exporter.export_all(
@@ -132,18 +133,46 @@ class ViralScopeEngine:
 
         return all_trends, stats
 
+    def _normalize_key(self, title: str) -> str:
+        """Normalize title for fuzzy deduplication."""
+        key = title.lower().strip()
+        key = re.sub(r"[^\w\s]", "", key)
+        return " ".join(key.split())
+
     def _deduplicate(self, trends: list[Trend]) -> list[Trend]:
-        """Remove duplicate trends by normalized title."""
-        seen: set[str] = set()
-        unique: list[Trend] = []
+        """Merge duplicate trends and aggregate cross-source signals."""
+        merged: dict[str, Trend] = {}
 
         for trend in trends:
-            key = trend.title.lower().strip()
-            if key not in seen and len(key) > 2:
-                seen.add(key)
-                unique.append(trend)
+            key = self._normalize_key(trend.title)
+            if len(key) <= 2:
+                continue
 
-        return unique
+            if key not in merged:
+                trend.raw_signals["source_mentions"] = 1
+                trend.raw_signals.setdefault("merged_sources", [trend.source])
+                merged[key] = trend
+                continue
+
+            existing = merged[key]
+            existing.raw_signals["source_mentions"] = (
+                existing.raw_signals.get("source_mentions", 1) + 1
+            )
+            sources = existing.raw_signals.setdefault("merged_sources", [existing.source])
+            if trend.source not in sources:
+                sources.append(trend.source)
+
+            # Keep richer engagement signals
+            for field in ("score", "num_comments", "google_rank", "feed_position"):
+                new_val = trend.raw_signals.get(field)
+                old_val = existing.raw_signals.get(field)
+                if new_val is not None and (old_val is None or new_val > old_val):
+                    existing.raw_signals[field] = new_val
+
+            if len(trend.description) > len(existing.description):
+                existing.description = trend.description
+
+        return list(merged.values())
 
 
 def run_once() -> dict[str, Any]:
@@ -314,10 +343,11 @@ def export_sample() -> None:
 
     scoring = ScoringEngine()
     scored = scoring.score_trends(sample_trends)
-    analytics = scoring.generate_analytics_summary(scored)
+    enriched = ContentGenerator().enrich_trends(scored)
+    analytics = scoring.generate_analytics_summary(enriched)
 
     exporter = JSONExporter()
-    paths = exporter.export_all(scored, analytics=analytics, scraper_stats={"mode": "sample"})
+    paths = exporter.export_all(enriched, analytics=analytics, scraper_stats={"mode": "sample"})
     logger.info(f"Sample exports generated: {paths}")
 
 

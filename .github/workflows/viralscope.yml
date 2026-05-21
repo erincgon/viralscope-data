@@ -1,0 +1,39 @@
+name: ViralScope Engine
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trend pipeline
+        env:
+          USE_PYTRENDS: "false"
+          CONCURRENT_REQUESTS: "3"
+          REQUEST_TIMEOUT: "20"
+          LOG_LEVEL: INFO
+        run: python main.py run
+
+      - name: Commit trend exports
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update trend exports"
+          file_pattern: exports/*.json

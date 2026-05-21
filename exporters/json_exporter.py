@@ -98,7 +98,7 @@ class JSONExporter:
                 "tier": "free",
                 "generated_at": generated_at,
                 "total_trends": len(free_trends),
-                "upgrade_message": "Upgrade to PRO for full AI analysis, hooks, and hashtags",
+                "upgrade_message": "Upgrade to PRO for full trend intelligence, hooks, and hashtags",
             },
             "trends": free_trends,
         }

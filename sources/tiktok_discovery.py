@@ -1,4 +1,4 @@
-"""TikTok trend discovery via public Creative Center pages."""
+"""TikTok trend discovery via public Creative Center and discover pages."""
 
 from __future__ import annotations
 
@@ -6,33 +6,38 @@ import json
 import re
 
 from bs4 import BeautifulSoup
+from loguru import logger
 
 from sources.base import BaseScraper, ScraperResult
 from utils.http_client import AsyncHTTPClient
 
 
 class TikTokDiscoveryScraper(BaseScraper):
-    """Scrape TikTok Creative Center public trend pages."""
+    """Scrape TikTok public trend pages for hashtag popularity signals."""
 
     source_name = "tiktok_discovery"
 
-    # Public Creative Center endpoints (no auth)
     TREND_URLS = [
         "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
         "https://www.tiktok.com/discover",
     ]
 
-    # Fallback curated short-form niches when public pages are unavailable
     FALLBACK_NICHES = [
-        ("POV Storytelling", "First-person narrative hooks driving massive engagement"),
-        ("Get Ready With Me", "GRWM routines with product integration opportunities"),
-        ("Day in My Life", "Authentic lifestyle vlogs with high relatability"),
-        ("Storytime Drama", "Compelling personal stories with cliffhanger hooks"),
-        ("Micro Tutorials", "60-second skill demos with save-worthy value"),
-        ("Before & After", "Transformation content with visual payoff"),
-        ("Reaction Commentary", "Trend-jacking via authentic reaction format"),
-        ("Silent ASMR", "Visual satisfaction content with broad appeal"),
+        ("POV Storytelling", "First-person narrative hooks driving massive engagement", "extreme"),
+        ("Get Ready With Me", "GRWM routines with product integration opportunities", "high"),
+        ("Day in My Life", "Authentic lifestyle vlogs with high relatability", "high"),
+        ("Storytime Drama", "Compelling personal stories with cliffhanger hooks", "high"),
+        ("Micro Tutorials", "60-second skill demos with save-worthy value", "moderate"),
+        ("Before & After", "Transformation content with visual payoff", "high"),
+        ("Reaction Commentary", "Trend-jacking via authentic reaction format", "high"),
+        ("Silent ASMR", "Visual satisfaction content with broad appeal", "extreme"),
+        ("Creator Economy Tips", "Monetization and growth advice for new creators", "moderate"),
+        ("Street Interview", "Spontaneous public Q&A driving comment engagement", "high"),
     ]
+
+    HASHTAG_BLOCKLIST = frozenset(
+        {"login", "sign up", "discover", "trending", "popular", "home", "about"}
+    )
 
     async def scrape(self) -> ScraperResult:
         trends = []
@@ -43,65 +48,91 @@ class TikTokDiscoveryScraper(BaseScraper):
                     html = await client.get(url)
                     parsed = self._parse_trends_from_html(html)
                     trends.extend(parsed)
-                    if trends:
+                    if len(trends) >= 8:
                         break
-                except Exception:
+                except Exception as exc:
+                    logger.debug(f"TikTok URL {url} failed: {exc}")
                     continue
 
         if not trends:
+            logger.info("TikTok public pages unavailable — using curated niche fallback")
             trends = [
                 self._build_trend(
                     title=title,
                     category="Short-Form",
                     description=desc,
                     best_platform="TikTok",
-                    raw_signals={"signal_type": "niche_discovery", "fallback": True},
+                    raw_signals={
+                        "signal_type": "niche_discovery",
+                        "velocity_hint": velocity,
+                        "fallback": True,
+                    },
                 )
-                for title, desc in self.FALLBACK_NICHES
+                for title, desc, velocity in self.FALLBACK_NICHES
             ]
 
-        return ScraperResult(source=self.source_name, trends=trends[:12])
+        return ScraperResult(source=self.source_name, trends=trends[:14])
 
     def _parse_trends_from_html(self, html: str) -> list:
         trends = []
         soup = BeautifulSoup(html, "html.parser")
 
-        # Try embedded JSON state (common in SPA pages)
-        scripts = soup.find_all("script")
-        for script in scripts:
+        for script in soup.find_all("script"):
             if not script.string:
                 continue
-            matches = re.findall(
-                r'"(?:hashtag|title|name)"\s*:\s*"([^"]{3,80})"',
-                script.string,
-            )
-            for match in matches[:10]:
-                if match.startswith("#") or len(match.split()) <= 6:
-                    trends.append(
-                        self._build_trend(
-                            title=match.lstrip("#"),
-                            category="Short-Form",
-                            description=f"TikTok trend signal: {match}",
-                            best_platform="TikTok",
-                            raw_signals={"signal_type": "hashtag_trend"},
-                        )
-                    )
 
-        # Parse visible headings as backup
-        for heading in soup.find_all(["h2", "h3", "h4"])[:8]:
-            text = heading.get_text(strip=True)
-            if 3 < len(text) < 80:
+            # Embedded JSON state
+            for match in re.findall(
+                r'"(?:hashtag|hashtagName|title|name)"\s*:\s*"([^"]{3,60})"',
+                script.string,
+            ):
+                clean = match.lstrip("#").strip()
+                if clean.lower() in self.HASHTAG_BLOCKLIST:
+                    continue
+                if len(clean.split()) > 6:
+                    continue
                 trends.append(
                     self._build_trend(
-                        title=text,
+                        title=clean,
                         category="Short-Form",
-                        description=f"TikTok discovery trend: {text}",
+                        description=f"TikTok hashtag trend: #{clean}",
                         best_platform="TikTok",
-                        raw_signals={"signal_type": "page_heading"},
+                        raw_signals={
+                            "signal_type": "hashtag_trend",
+                            "velocity_hint": "high",
+                        },
                     )
                 )
 
-        # Deduplicate by title
+            # View counts when present in JSON blobs
+            view_matches = re.findall(
+                r'"(?:videoViews|viewCount|views)"\s*:\s*"?(\d+)"?',
+                script.string,
+            )
+            if view_matches and trends:
+                try:
+                    trends[-1].raw_signals["hashtag_views"] = int(view_matches[0])
+                except ValueError:
+                    pass
+
+        for heading in soup.find_all(["h2", "h3", "h4", "span"])[:12]:
+            text = heading.get_text(strip=True)
+            if not (3 < len(text) < 60):
+                continue
+            if text.lower() in self.HASHTAG_BLOCKLIST:
+                continue
+            if text.startswith("#"):
+                text = text[1:]
+            trends.append(
+                self._build_trend(
+                    title=text,
+                    category="Short-Form",
+                    description=f"TikTok discovery trend: {text}",
+                    best_platform="TikTok",
+                    raw_signals={"signal_type": "page_heading"},
+                )
+            )
+
         seen: set[str] = set()
         unique = []
         for trend in trends:
