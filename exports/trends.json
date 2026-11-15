@@ -2,14 +2,14 @@
   "meta": {
     "engine": "ViralScope Engine",
     "version": "1.0.0",
-    "generated_at": "2026-11-14T17:39:10.641160+00:00",
-    "total_trends": 86,
+    "generated_at": "2026-11-15T04:44:05.956485+00:00",
+    "total_trends": 62,
     "analytics": {
-      "total_trends": 86,
-      "avg_viral_score": 58.2,
-      "avg_confidence_score": 59.1,
+      "total_trends": 62,
+      "avg_viral_score": 58.0,
+      "avg_confidence_score": 57.0,
       "top_category": "Short-Form",
-      "top_platform": "YouTube",
+      "top_platform": "Multi-Platform",
       "extreme_growth_count": 0,
       "low_competition_count": 12,
       "engine": "rule_based"
@@ -25,7 +25,7 @@
         },
         "youtube_trending": {
           "success": true,
-          "trends_count": 24
+          "trends_count": 0
         },
         "reddit_trending": {
           "success": true,
@@ -52,12 +52,12 @@
   },
   "trends": [
     {
-      "title": "kraken vs hurricanes",
+      "title": "peter thiel",
       "category": "News",
       "description": "Trending on Google Search in US (rank #1)",
       "source": "google_trends",
-      "id": "596279d6-70a6-412c-ab6a-fb4f6cdaf97f",
-      "viral_score": 72,
+      "id": "3a39be23-d686-4a69-8feb-a558e6c83ad2",
+      "viral_score": 71,
       "confidence_score": 73,
       "growth_velocity": "High",
       "competition_level": "Very High",
@@ -65,8 +65,8 @@
       "best_platform": "YouTube",
       "thumbnail_text": "EVERYONE IS TRYING THIS",
       "hashtags": [
-        "#kraken",
-        "#hurricanes",
+        "#peter",
+        "#thiel",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -74,11 +74,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "This kraken hurricanes trend is everywhere",
-        "I tried kraken hurricanes for 7 days — here's what happened",
-        "Why kraken hurricanes is blowing up right now"
+        "This peter thiel trend is everywhere",
+        "I tried peter thiel for 7 days — here's what happened",
+        "Why peter thiel is blowing up right now"
       ],
-      "ai_analysis": "'kraken hurricanes' shows high growth on YouTube with viral score 72/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'peter thiel' shows high growth on YouTube with viral score 71/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -89,7 +89,7 @@
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
         "google_rank": 1,
-        "traffic": "2000+",
+        "traffic": "1000+",
         "signal_type": "search_spike",
         "velocity_hint": "extreme",
         "source_mentions": 1,
@@ -106,30 +106,29 @@
           "engagement_potential": 75.6,
           "growth_score": 79.5,
           "competition_score": 80.0,
-          "saturation_score": 67.0,
-          "creator_opportunity_score": 57.3,
+          "saturation_score": 68.0,
+          "creator_opportunity_score": 57.1,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582398+00:00"
+      "created_at": "2026-11-15T04:43:36.999414+00:00"
     },
     {
-      "title": "east carolina vs charlotte",
+      "title": "sam altman",
       "category": "News",
       "description": "Trending on Google Search in US (rank #2)",
       "source": "google_trends",
-      "id": "ef7e4882-5438-4ccf-8330-fb438a9db9e4",
-      "viral_score": 71,
-      "confidence_score": 73,
+      "id": "4ddad420-4036-475f-ae91-f5f51348f811",
+      "viral_score": 70,
+      "confidence_score": 72,
       "growth_velocity": "High",
       "competition_level": "Very High",
-      "saturation_risk": "High",
+      "saturation_risk": "Medium",
       "best_platform": "YouTube",
-      "thumbnail_text": "EVERYONE IS TRYING THIS",
+      "thumbnail_text": "TREND ALERT",
       "hashtags": [
-        "#east",
-        "#carolina",
-        "#charlotte",
+        "#sam",
+        "#altman",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -137,11 +136,73 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "This east carolina charlotte trend is everywhere",
-        "I tried east carolina charlotte for 7 days — here's what happened",
-        "Why east carolina charlotte is blowing up right now"
+        "Why sam altman is blowing up right now",
+        "The sam altman trend creators don't want you to miss",
+        "Stop scrolling — sam altman is the next viral wave"
       ],
-      "ai_analysis": "'east carolina charlotte' shows high growth on YouTube with viral score 71/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'sam altman' shows high growth on YouTube with viral score 70/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
+      "creator_insights": [
+        "Growth velocity is High — publish within 48h to ride the wave",
+        "Competition is Very High — differentiate with a unique POV or niche angle",
+        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
+        "Primary platform signal: YouTube — optimize format for that algorithm"
+      ],
+      "raw_signals": {
+        "link": "https://trends.google.com/trending/rss?geo=US",
+        "geo": "US",
+        "google_rank": 2,
+        "traffic": "500+",
+        "signal_type": "search_spike",
+        "velocity_hint": "extreme",
+        "source_mentions": 1,
+        "merged_sources": [
+          "google_trends"
+        ],
+        "scoring": {
+          "keyword_popularity": 91.0,
+          "trend_velocity": 99,
+          "reddit_engagement": 45.0,
+          "youtube_position": 45.0,
+          "google_trends_rank": 89,
+          "tiktok_hashtag": 48.0,
+          "engagement_potential": 74.2,
+          "growth_score": 78.7,
+          "competition_score": 80.0,
+          "saturation_score": 62.0,
+          "creator_opportunity_score": 57.7,
+          "cross_source_boost": 0.0
+        }
+      },
+      "created_at": "2026-11-15T04:43:36.999455+00:00"
+    },
+    {
+      "title": "dario amodei",
+      "category": "News",
+      "description": "Trending on Google Search in US (rank #3)",
+      "source": "google_trends",
+      "id": "3c4ef756-a9d3-449f-a963-c9b928a37d5b",
+      "viral_score": 70,
+      "confidence_score": 72,
+      "growth_velocity": "High",
+      "competition_level": "Very High",
+      "saturation_risk": "High",
+      "best_platform": "YouTube",
+      "thumbnail_text": "YOU NEED TO SEE THIS",
+      "hashtags": [
+        "#dario",
+        "#amodei",
+        "#Viral",
+        "#Trending",
+        "#FYP",
+        "#YouTube",
+        "#ViralScope"
+      ],
+      "hook_ideas": [
+        "I tried dario amodei for 7 days — here's what happened",
+        "Why dario amodei is blowing up right now",
+        "The dario amodei trend creators don't want you to miss"
+      ],
+      "ai_analysis": "'dario amodei' shows high growth on YouTube with viral score 70/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -151,8 +212,8 @@
       "raw_signals": {
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
-        "google_rank": 2,
-        "traffic": "1000+",
+        "google_rank": 3,
+        "traffic": "500+",
         "signal_type": "search_spike",
         "velocity_hint": "extreme",
         "source_mentions": 1,
@@ -160,39 +221,39 @@
           "google_trends"
         ],
         "scoring": {
-          "keyword_popularity": 99,
+          "keyword_popularity": 93.5,
           "trend_velocity": 99,
           "reddit_engagement": 45.0,
           "youtube_position": 45.0,
-          "google_trends_rank": 89,
+          "google_trends_rank": 85,
           "tiktok_hashtag": 48.0,
-          "engagement_potential": 76.2,
-          "growth_score": 78.7,
+          "engagement_potential": 74.9,
+          "growth_score": 77.9,
           "competition_score": 80.0,
-          "saturation_score": 67.0,
-          "creator_opportunity_score": 57.2,
+          "saturation_score": 71.0,
+          "creator_opportunity_score": 55.8,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582438+00:00"
+      "created_at": "2026-11-15T04:43:36.999473+00:00"
     },
     {
-      "title": "nebraska football schedule",
+      "title": "utah state football",
       "category": "News",
       "description": "Trending on Google Search in US (rank #4)",
       "source": "google_trends",
-      "id": "e10662a7-69f1-4a28-b454-5cac12500d1c",
+      "id": "260d1d6c-78ef-4a67-a30e-0eb337b93a15",
       "viral_score": 70,
       "confidence_score": 72,
       "growth_velocity": "High",
       "competition_level": "Very High",
       "saturation_risk": "Medium",
       "best_platform": "YouTube",
-      "thumbnail_text": "TREND ALERT",
+      "thumbnail_text": "YOU NEED TO SEE THIS",
       "hashtags": [
-        "#nebraska",
+        "#utah",
+        "#state",
         "#football",
-        "#schedule",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -200,11 +261,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Why nebraska football schedule is blowing up right now",
-        "The nebraska football schedule trend creators don't want you to miss",
-        "Stop scrolling — nebraska football schedule is the next viral wave"
+        "I tried utah state football for 7 days — here's what happened",
+        "Why utah state football is blowing up right now",
+        "The utah state football trend creators don't want you to miss"
       ],
-      "ai_analysis": "'nebraska football schedule' shows high growth on YouTube with viral score 70/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'utah state football' shows high growth on YouTube with viral score 70/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -215,7 +276,7 @@
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
         "google_rank": 4,
-        "traffic": "5000+",
+        "traffic": "1000+",
         "signal_type": "search_spike",
         "velocity_hint": "high",
         "source_mentions": 1,
@@ -237,24 +298,25 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582483+00:00"
+      "created_at": "2026-11-15T04:43:36.999488+00:00"
     },
     {
-      "title": "uab vs temple",
+      "title": "texas football schedule",
       "category": "News",
-      "description": "Trending on Google Search in US (rank #3)",
+      "description": "Trending on Google Search in US (rank #5)",
       "source": "google_trends",
-      "id": "08c96fc4-eb1d-44e1-b446-8a89b2a2cb35",
+      "id": "13c730da-1ac2-44b0-94bc-f12d29763215",
       "viral_score": 69,
       "confidence_score": 71,
       "growth_velocity": "High",
       "competition_level": "Very High",
       "saturation_risk": "High",
       "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
+      "thumbnail_text": "TEXAS FOOTBALL SCHEDULE",
       "hashtags": [
-        "#uab",
-        "#temple",
+        "#texas",
+        "#football",
+        "#schedule",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -262,11 +324,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "The uab temple trend creators don't want you to miss",
-        "Stop scrolling — uab temple is the next viral wave",
-        "POV: uab temple changed everything"
+        "Stop scrolling — texas football schedule is the next viral wave",
+        "POV: texas football schedule changed everything",
+        "Nobody expected texas football schedule to explode"
       ],
-      "ai_analysis": "'uab temple' shows high growth on YouTube with viral score 69/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'texas football schedule' shows high growth on YouTube with viral score 69/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -276,47 +338,47 @@
       "raw_signals": {
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
-        "google_rank": 3,
-        "traffic": "500+",
+        "google_rank": 5,
+        "traffic": "5000+",
         "signal_type": "search_spike",
-        "velocity_hint": "extreme",
+        "velocity_hint": "high",
         "source_mentions": 1,
         "merged_sources": [
           "google_trends"
         ],
         "scoring": {
-          "keyword_popularity": 89.5,
+          "keyword_popularity": 94.5,
           "trend_velocity": 99,
           "reddit_engagement": 45.0,
           "youtube_position": 45.0,
-          "google_trends_rank": 85,
+          "google_trends_rank": 77,
           "tiktok_hashtag": 48.0,
-          "engagement_potential": 73.9,
-          "growth_score": 77.9,
+          "engagement_potential": 75.1,
+          "growth_score": 76.3,
           "competition_score": 80.0,
           "saturation_score": 71.0,
-          "creator_opportunity_score": 55.5,
+          "creator_opportunity_score": 55.3,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582464+00:00"
+      "created_at": "2026-11-15T04:43:36.999502+00:00"
     },
     {
-      "title": "george bush",
+      "title": "julianna peña",
       "category": "News",
-      "description": "Trending on Google Search in US (rank #5)",
+      "description": "Trending on Google Search in US (rank #6)",
       "source": "google_trends",
-      "id": "59408a40-fe88-42bc-9a34-866ca89c3a08",
-      "viral_score": 69,
+      "id": "5d77c9a1-1b0c-42b8-866b-12b1d73e731f",
+      "viral_score": 68,
       "confidence_score": 71,
       "growth_velocity": "High",
       "competition_level": "Very High",
       "saturation_risk": "Medium",
       "best_platform": "YouTube",
-      "thumbnail_text": "GEORGE BUSH",
+      "thumbnail_text": "TREND ALERT",
       "hashtags": [
-        "#george",
-        "#bush",
+        "#julianna",
+        "#pea",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -324,11 +386,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Stop scrolling — george bush is the next viral wave",
-        "POV: george bush changed everything",
-        "Nobody expected george bush to explode"
+        "Why julianna peña is blowing up right now",
+        "The julianna peña trend creators don't want you to miss",
+        "Stop scrolling — julianna peña is the next viral wave"
       ],
-      "ai_analysis": "'george bush' shows high growth on YouTube with viral score 69/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'julianna peña' shows high growth on YouTube with viral score 68/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -338,7 +400,7 @@
       "raw_signals": {
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
-        "google_rank": 5,
+        "google_rank": 6,
         "traffic": "1000+",
         "signal_type": "search_spike",
         "velocity_hint": "high",
@@ -347,28 +409,28 @@
           "google_trends"
         ],
         "scoring": {
-          "keyword_popularity": 90.5,
+          "keyword_popularity": 89.0,
           "trend_velocity": 99,
           "reddit_engagement": 45.0,
           "youtube_position": 45.0,
-          "google_trends_rank": 77,
+          "google_trends_rank": 73,
           "tiktok_hashtag": 48.0,
-          "engagement_potential": 74.1,
-          "growth_score": 76.3,
+          "engagement_potential": 73.8,
+          "growth_score": 75.5,
           "competition_score": 80.0,
-          "saturation_score": 60.0,
-          "creator_opportunity_score": 57.2,
+          "saturation_score": 63.0,
+          "creator_opportunity_score": 56.3,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582500+00:00"
+      "created_at": "2026-11-15T04:43:36.999517+00:00"
     },
     {
       "title": "Niche Language Learning",
       "category": "Education",
       "description": "Ultra-specific language tips (business Spanish, anime Japanese)",
       "source": "emerging_creator_topics",
-      "id": "843a87fd-a0d1-4fda-8078-a5ce24871b39",
+      "id": "051351d5-ec1a-4b68-9de8-481d94cfcc9d",
       "viral_score": 68,
       "confidence_score": 59,
       "growth_velocity": "Moderate",
@@ -419,14 +481,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755323+00:00"
+      "created_at": "2026-11-15T04:43:51.908291+00:00"
     },
     {
       "title": "Plant Parent Community",
       "category": "Lifestyle",
       "description": "Indoor gardening tips with community-driven content",
       "source": "emerging_creator_topics",
-      "id": "e667e4d2-99b4-4b77-b7f3-26825b01be6f",
+      "id": "f95c4525-16b6-49e6-bf58-5f365c5e2e16",
       "viral_score": 68,
       "confidence_score": 59,
       "growth_velocity": "Moderate",
@@ -477,87 +539,25 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755361+00:00"
+      "created_at": "2026-11-15T04:43:51.908321+00:00"
     },
     {
-      "title": "rob gronkowski",
-      "category": "News",
-      "description": "Trending on Google Search in US (rank #6)",
-      "source": "google_trends",
-      "id": "1f1a6880-3bf5-406b-af34-8160dfb24cb6",
-      "viral_score": 67,
-      "confidence_score": 70,
-      "growth_velocity": "High",
-      "competition_level": "Very High",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#rob",
-        "#gronkowski",
-        "#Viral",
-        "#Trending",
-        "#FYP",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The rob gronkowski trend creators don't want you to miss",
-        "Stop scrolling — rob gronkowski is the next viral wave",
-        "POV: rob gronkowski changed everything"
-      ],
-      "ai_analysis": "'rob gronkowski' shows high growth on YouTube with viral score 67/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Very High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "link": "https://trends.google.com/trending/rss?geo=US",
-        "geo": "US",
-        "google_rank": 6,
-        "traffic": "2000+",
-        "signal_type": "search_spike",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "google_trends"
-        ],
-        "scoring": {
-          "keyword_popularity": 85.0,
-          "trend_velocity": 99,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 73,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 72.8,
-          "growth_score": 75.5,
-          "competition_score": 80.0,
-          "saturation_score": 61.0,
-          "creator_opportunity_score": 56.4,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.582554+00:00"
-    },
-    {
-      "title": "auburn vs mississippi state",
+      "title": "university of texas football",
       "category": "News",
       "description": "Trending on Google Search in US (rank #8)",
       "source": "google_trends",
-      "id": "a10e4f8e-1c15-4c4e-b77b-e78d73ed8165",
+      "id": "737fbfd7-e239-4f4e-8330-fedc9792cbaf",
       "viral_score": 67,
       "confidence_score": 70,
       "growth_velocity": "High",
       "competition_level": "Very High",
       "saturation_risk": "High",
       "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
+      "thumbnail_text": "EVERYONE IS TRYING THIS",
       "hashtags": [
-        "#auburn",
-        "#mississippi",
-        "#state",
+        "#university",
+        "#texas",
+        "#football",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -565,11 +565,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "The auburn mississippi state trend creators don't want you to miss",
-        "Stop scrolling — auburn mississippi state is the next viral wave",
-        "POV: auburn mississippi state changed everything"
+        "This university texas football trend is everywhere",
+        "I tried university texas football for 7 days — here's what happened",
+        "Why university texas football is blowing up right now"
       ],
-      "ai_analysis": "'auburn mississippi state' shows high growth on YouTube with viral score 67/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'university texas football' shows high growth on YouTube with viral score 67/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -580,7 +580,7 @@
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
         "google_rank": 8,
-        "traffic": "500+",
+        "traffic": "1000+",
         "signal_type": "search_spike",
         "velocity_hint": "high",
         "source_mentions": 1,
@@ -597,28 +597,28 @@
           "engagement_potential": 74.0,
           "growth_score": 73.9,
           "competition_score": 80.0,
-          "saturation_score": 68.0,
-          "creator_opportunity_score": 54.8,
+          "saturation_score": 65.0,
+          "creator_opportunity_score": 55.4,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582593+00:00"
+      "created_at": "2026-11-15T04:43:36.999543+00:00"
     },
     {
-      "title": "apple tv 4k",
+      "title": "ut score",
       "category": "News",
       "description": "Trending on Google Search in US (rank #7)",
       "source": "google_trends",
-      "id": "5e7868f6-4798-49cd-a3c5-fc2545b62888",
+      "id": "fe178e6a-3a79-4844-9e10-0893a06ed53c",
       "viral_score": 66,
       "confidence_score": 70,
       "growth_velocity": "High",
       "competition_level": "Very High",
-      "saturation_risk": "Medium",
+      "saturation_risk": "High",
       "best_platform": "YouTube",
-      "thumbnail_text": "TREND ALERT",
+      "thumbnail_text": "GOING VIRAL NOW",
       "hashtags": [
-        "#apple",
+        "#score",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -626,22 +626,22 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Why apple is blowing up right now",
-        "The apple trend creators don't want you to miss",
-        "Stop scrolling — apple is the next viral wave"
+        "The score trend creators don't want you to miss",
+        "Stop scrolling — score is the next viral wave",
+        "POV: score changed everything"
       ],
-      "ai_analysis": "'apple' shows high growth on YouTube with viral score 66/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'score' shows high growth on YouTube with viral score 66/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
+        "Saturation risk is High — find a micro-niche sub-angle to avoid saturation",
         "Primary platform signal: YouTube — optimize format for that algorithm"
       ],
       "raw_signals": {
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
         "google_rank": 7,
-        "traffic": "500+",
+        "traffic": "5000+",
         "signal_type": "search_spike",
         "velocity_hint": "high",
         "source_mentions": 1,
@@ -658,92 +658,28 @@
           "engagement_potential": 72.4,
           "growth_score": 74.7,
           "competition_score": 80.0,
-          "saturation_score": 64.0,
-          "creator_opportunity_score": 55.4,
+          "saturation_score": 65.0,
+          "creator_opportunity_score": 55.2,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582575+00:00"
+      "created_at": "2026-11-15T04:43:36.999529+00:00"
     },
     {
-      "title": "Gubbara Chaand Ka (Full Video)| The India Story| Kajal Aggarwal Kitchlu| Shreya Ghoshal,Shaan,Adwita",
-      "category": "Short-Form",
-      "description": "YouTube viral signal — Short-Form creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "6f770a2c-d287-4d77-92f2-1305685d1936",
-      "viral_score": 66,
-      "confidence_score": 69,
-      "growth_velocity": "High",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube Shorts",
-      "thumbnail_text": "EVERYONE IS TRYING THIS",
-      "hashtags": [
-        "#Gubbara",
-        "#Chaand",
-        "#Full",
-        "#Shorts",
-        "#Reels",
-        "#FYP",
-        "#Viral",
-        "#YouTubeShorts",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "This Gubbara Chaand Full trend is everywhere",
-        "I tried Gubbara Chaand Full for 7 days — here's what happened",
-        "Why Gubbara Chaand Full is blowing up right now"
-      ],
-      "ai_analysis": "'Gubbara Chaand Full' shows high growth on YouTube Shorts with viral score 66/99. Competition is medium and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube Shorts — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCq-Fj5jknLsUf-MWSy4_brA",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "VFqOBN4Tee8",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 72.8,
-          "competition_score": 50.0,
-          "saturation_score": 48.0,
-          "creator_opportunity_score": 60.1,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.477589+00:00"
-    },
-    {
-      "title": "gronkowski",
+      "title": "aj brown",
       "category": "News",
       "description": "Trending on Google Search in US (rank #9)",
       "source": "google_trends",
-      "id": "95cc4999-0294-45e6-86d0-bf9b47be86b8",
+      "id": "60d5bd7d-d421-4087-a8ef-2bc4d651bedc",
       "viral_score": 65,
       "confidence_score": 69,
       "growth_velocity": "High",
       "competition_level": "Very High",
       "saturation_risk": "Medium",
       "best_platform": "YouTube",
-      "thumbnail_text": "GRONKOWSKI",
+      "thumbnail_text": "TREND ALERT",
       "hashtags": [
-        "#gronkowski",
+        "#brown",
         "#Viral",
         "#Trending",
         "#FYP",
@@ -751,11 +687,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Stop scrolling — gronkowski is the next viral wave",
-        "POV: gronkowski changed everything",
-        "Nobody expected gronkowski to explode"
+        "Why brown is blowing up right now",
+        "The brown trend creators don't want you to miss",
+        "Stop scrolling — brown is the next viral wave"
       ],
-      "ai_analysis": "'gronkowski' shows high growth on YouTube with viral score 65/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'brown' shows high growth on YouTube with viral score 65/99. Competition is very high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
         "Competition is Very High — differentiate with a unique POV or niche angle",
@@ -766,7 +702,7 @@
         "link": "https://trends.google.com/trending/rss?geo=US",
         "geo": "US",
         "google_rank": 9,
-        "traffic": "500+",
+        "traffic": "1000+",
         "signal_type": "search_spike",
         "velocity_hint": "high",
         "source_mentions": 1,
@@ -783,145 +719,19 @@
           "engagement_potential": 71.6,
           "growth_score": 73.1,
           "competition_score": 80.0,
-          "saturation_score": 59.0,
-          "creator_opportunity_score": 55.7,
+          "saturation_score": 60.0,
+          "creator_opportunity_score": 55.5,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.582606+00:00"
-    },
-    {
-      "title": "kevin jennings",
-      "category": "News",
-      "description": "Trending on Google Search in US (rank #10)",
-      "source": "google_trends",
-      "id": "a23a4bd7-cdb1-4d11-a7d0-539b9b28a43c",
-      "viral_score": 65,
-      "confidence_score": 69,
-      "growth_velocity": "High",
-      "competition_level": "Very High",
-      "saturation_risk": "High",
-      "best_platform": "YouTube",
-      "thumbnail_text": "YOU NEED TO SEE THIS",
-      "hashtags": [
-        "#kevin",
-        "#jennings",
-        "#Viral",
-        "#Trending",
-        "#FYP",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "I tried kevin jennings for 7 days — here's what happened",
-        "Why kevin jennings is blowing up right now",
-        "The kevin jennings trend creators don't want you to miss"
-      ],
-      "ai_analysis": "'kevin jennings' shows high growth on YouTube with viral score 65/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Very High — differentiate with a unique POV or niche angle",
-        "Saturation risk is High — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "link": "https://trends.google.com/trending/rss?geo=US",
-        "geo": "US",
-        "google_rank": 10,
-        "traffic": "200+",
-        "signal_type": "search_spike",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "google_trends"
-        ],
-        "scoring": {
-          "keyword_popularity": 83.0,
-          "trend_velocity": 99,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 57,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 72.2,
-          "growth_score": 72.3,
-          "competition_score": 80.0,
-          "saturation_score": 72.0,
-          "creator_opportunity_score": 53.0,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.582620+00:00"
-    },
-    {
-      "title": "KING: Isha Malviya😍 brings “Tu Mil Jaaye” to life | Shah Rukh Khan, Deepika | Arijit, Ed Sheeran",
-      "category": "Short-Form",
-      "description": "YouTube viral signal — Short-Form creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "b759e0e9-a5b5-40a3-aa64-726afa093279",
-      "viral_score": 65,
-      "confidence_score": 68,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube Shorts",
-      "thumbnail_text": "THIS IS BLOWING UP",
-      "hashtags": [
-        "#KING",
-        "#Isha",
-        "#Malviya",
-        "#Shorts",
-        "#Reels",
-        "#FYP",
-        "#Viral",
-        "#YouTubeShorts",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "POV: KING Isha Malviya changed everything",
-        "Nobody expected KING Isha Malviya to explode",
-        "This KING Isha Malviya trend is everywhere"
-      ],
-      "ai_analysis": "'KING Isha Malviya' shows moderate growth on YouTube Shorts with viral score 65/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube Shorts — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCq-Fj5jknLsUf-MWSy4_brA",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "SfjSF4cSCNg",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 79,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 68.9,
-          "competition_score": 50.0,
-          "saturation_score": 37.0,
-          "creator_opportunity_score": 60.9,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.477625+00:00"
+      "created_at": "2026-11-15T04:43:36.999555+00:00"
     },
     {
       "title": "Retro Tech Restoration",
       "category": "Technology",
       "description": "Restoring vintage electronics with satisfying process videos",
       "source": "emerging_creator_topics",
-      "id": "2d638699-c403-4979-8de8-e9e9e28fc23a",
+      "id": "2648d506-2cde-4323-9ff9-ca626f46fad9",
       "viral_score": 65,
       "confidence_score": 58,
       "growth_velocity": "Moderate",
@@ -972,78 +782,75 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755333+00:00"
+      "created_at": "2026-11-15T04:43:51.908299+00:00"
     },
     {
-      "title": "NAINA (Lyrical Video): Neeti Mohan | Preet Sirohi | Neer Katesra | T-Series",
-      "category": "Short-Form",
-      "description": "YouTube viral signal — Short-Form creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "b688e38f-a6e4-49f1-86e8-2275c1cf0d9a",
+      "title": "sarkisian",
+      "category": "News",
+      "description": "Trending on Google Search in US (rank #10)",
+      "source": "google_trends",
+      "id": "13104529-99e8-4897-ba96-7a4311a2cd42",
       "viral_score": 64,
-      "confidence_score": 68,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube Shorts",
-      "thumbnail_text": "YOU NEED TO SEE THIS",
+      "confidence_score": 69,
+      "growth_velocity": "High",
+      "competition_level": "Very High",
+      "saturation_risk": "High",
+      "best_platform": "YouTube",
+      "thumbnail_text": "TREND ALERT",
       "hashtags": [
-        "#NAINA",
-        "#Lyrical",
-        "#Video",
-        "#Shorts",
-        "#Reels",
-        "#FYP",
+        "#sarkisian",
         "#Viral",
-        "#YouTubeShorts",
+        "#Trending",
+        "#FYP",
+        "#YouTube",
         "#ViralScope"
       ],
       "hook_ideas": [
-        "I tried NAINA Lyrical Video for 7 days — here's what happened",
-        "Why NAINA Lyrical Video is blowing up right now",
-        "The NAINA Lyrical Video trend creators don't want you to miss"
+        "Why sarkisian is blowing up right now",
+        "The sarkisian trend creators don't want you to miss",
+        "Stop scrolling — sarkisian is the next viral wave"
       ],
-      "ai_analysis": "'NAINA Lyrical Video' shows moderate growth on YouTube Shorts with viral score 64/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
+      "ai_analysis": "'sarkisian' shows high growth on YouTube with viral score 64/99. Competition is very high and saturation risk is high. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube Shorts — optimize format for that algorithm"
+        "Growth velocity is High — publish within 48h to ride the wave",
+        "Competition is Very High — differentiate with a unique POV or niche angle",
+        "Saturation risk is High — find a micro-niche sub-angle to avoid saturation",
+        "Primary platform signal: YouTube — optimize format for that algorithm"
       ],
       "raw_signals": {
-        "channel_id": "UCq-Fj5jknLsUf-MWSy4_brA",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "_hZe9AQFr8E",
-        "signal_type": "video_trend",
+        "link": "https://trends.google.com/trending/rss?geo=US",
+        "geo": "US",
+        "google_rank": 10,
+        "traffic": "500+",
+        "signal_type": "search_spike",
         "velocity_hint": "high",
         "source_mentions": 1,
         "merged_sources": [
-          "youtube_trending"
+          "google_trends"
         ],
         "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
+          "keyword_popularity": 79.0,
+          "trend_velocity": 99,
           "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
+          "youtube_position": 45.0,
+          "google_trends_rank": 57,
           "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 67.7,
-          "competition_score": 50.0,
-          "saturation_score": 46.0,
-          "creator_opportunity_score": 58.7,
+          "engagement_potential": 71.2,
+          "growth_score": 72.3,
+          "competition_score": 80.0,
+          "saturation_score": 70.0,
+          "creator_opportunity_score": 53.1,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.477646+00:00"
+      "created_at": "2026-11-15T04:43:36.999566+00:00"
     },
     {
       "title": "Download TikTok - Make Your Day",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Download TikTok - Make Your Day",
       "source": "tiktok_discovery",
-      "id": "e2927526-35b5-4568-b422-5f0dd8fde67a",
+      "id": "74e0c4c4-991d-4805-aa37-adaa00bf374b",
       "viral_score": 64,
       "confidence_score": 59,
       "growth_velocity": "High",
@@ -1095,14 +902,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133229+00:00"
+      "created_at": "2026-11-15T04:43:38.823673+00:00"
     },
     {
       "title": "TikTok LIVE Creator Networks",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #TikTok LIVE Creator Networks",
       "source": "tiktok_discovery",
-      "id": "2e4470ab-4d5a-422b-a485-e29478db428c",
+      "id": "bbb99685-119d-4e9c-8a09-9a6bac11e914",
       "viral_score": 64,
       "confidence_score": 59,
       "growth_velocity": "High",
@@ -1154,78 +961,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133350+00:00"
-    },
-    {
-      "title": "MAIN RAM🙏🚩- RAMAYANA |  Ranbir Kapoor, Yash | Sachet Tandon,Prateek Walia,Kumar Vishwas",
-      "category": "Short-Form",
-      "description": "YouTube viral signal — Short-Form creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "dd0735bb-40a1-4956-995b-7e78ea58978c",
-      "viral_score": 63,
-      "confidence_score": 67,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube Shorts",
-      "thumbnail_text": "TREND ALERT",
-      "hashtags": [
-        "#MAIN",
-        "#RAM",
-        "#RAMAYANA",
-        "#Shorts",
-        "#Reels",
-        "#FYP",
-        "#Viral",
-        "#YouTubeShorts",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Why MAIN RAM- RAMAYANA is blowing up right now",
-        "The MAIN RAM- RAMAYANA trend creators don't want you to miss",
-        "Stop scrolling — MAIN RAM- RAMAYANA is the next viral wave"
-      ],
-      "ai_analysis": "'MAIN RAM- RAMAYANA' shows moderate growth on YouTube Shorts with viral score 63/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube Shorts — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCq-Fj5jknLsUf-MWSy4_brA",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "YEjXJYSjj-w",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 66.5,
-          "competition_score": 50.0,
-          "saturation_score": 45.0,
-          "creator_opportunity_score": 58.5,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.477664+00:00"
+      "created_at": "2026-11-15T04:43:38.823773+00:00"
     },
     {
       "title": "TikTok for Good",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #TikTok for Good",
       "source": "tiktok_discovery",
-      "id": "92adaa9e-9085-4611-87ff-d1245f9d9ce9",
+      "id": "144bc4a8-de19-4d66-bfd4-2488892a4b58",
       "viral_score": 63,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1277,14 +1020,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133322+00:00"
+      "created_at": "2026-11-15T04:43:38.823750+00:00"
     },
     {
       "title": "Sell on TikTok Shop",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Sell on TikTok Shop",
       "source": "tiktok_discovery",
-      "id": "d4645f51-15e2-4c0a-94bd-281ecf4cf0fd",
+      "id": "1a90c46e-a796-445d-8f89-c8d510979b16",
       "viral_score": 63,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1336,14 +1079,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133341+00:00"
+      "created_at": "2026-11-15T04:43:38.823765+00:00"
     },
     {
       "title": "Solo Travel on Budget",
       "category": "Lifestyle",
       "description": "Affordable solo travel vlogs targeting Gen Z wanderlust",
       "source": "emerging_creator_topics",
-      "id": "7f79ce61-c408-4739-83a9-4db823f787c6",
+      "id": "08e850a9-dd19-41f7-8dd0-e1dd6ee704bc",
       "viral_score": 63,
       "confidence_score": 57,
       "growth_velocity": "Moderate",
@@ -1394,14 +1137,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755353+00:00"
+      "created_at": "2026-11-15T04:43:51.908314+00:00"
     },
     {
       "title": "Vintage Fashion Hauls",
       "category": "Beauty",
       "description": "Thrift and vintage fashion with sustainability angle",
       "source": "emerging_creator_topics",
-      "id": "2c6ef6f7-6d7f-4b45-ae3a-8be6d91c79ec",
+      "id": "5665c54e-a15d-4fa0-a527-1d61ab23bbd0",
       "viral_score": 63,
       "confidence_score": 57,
       "growth_velocity": "Moderate",
@@ -1452,14 +1195,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755378+00:00"
+      "created_at": "2026-11-15T04:43:51.908334+00:00"
     },
     {
       "title": "Company",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Company",
       "source": "tiktok_discovery",
-      "id": "0ca51f1e-a054-489e-ae97-09bf6eadf76f",
+      "id": "3dfc482e-1317-4081-94f6-1aadc2ce0b07",
       "viral_score": 62,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1510,14 +1253,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133273+00:00"
+      "created_at": "2026-11-15T04:43:38.823711+00:00"
     },
     {
       "title": "Newsroom",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Newsroom",
       "source": "tiktok_discovery",
-      "id": "2b817512-06e5-4170-b1e4-d2a62e6099bc",
+      "id": "c2ba34c3-8ed6-48c4-9a1d-d2fa7e2add67",
       "viral_score": 62,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1568,14 +1311,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133284+00:00"
+      "created_at": "2026-11-15T04:43:38.823719+00:00"
     },
     {
       "title": "Careers",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Careers",
       "source": "tiktok_discovery",
-      "id": "9885cac5-b54d-44b5-b55d-a5eb6b6ac48d",
+      "id": "f38f2ffd-e5b7-4343-9ee0-0906bcadefd0",
       "viral_score": 62,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1626,14 +1369,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133304+00:00"
+      "created_at": "2026-11-15T04:43:38.823734+00:00"
     },
     {
       "title": "Transparency",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Transparency",
       "source": "tiktok_discovery",
-      "id": "e35debdb-305a-4134-9f15-5de76f113019",
+      "id": "b1eabf6d-5877-4c52-ab44-89f93ef70cbe",
       "viral_score": 62,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1684,14 +1427,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133368+00:00"
+      "created_at": "2026-11-15T04:43:38.823802+00:00"
     },
     {
       "title": "TikTok Embeds",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #TikTok Embeds",
       "source": "tiktok_discovery",
-      "id": "278265c8-953f-49b8-877a-831bde600037",
+      "id": "75856d86-b585-472a-90b8-c1f92713df0e",
       "viral_score": 62,
       "confidence_score": 58,
       "growth_velocity": "High",
@@ -1742,203 +1485,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133376+00:00"
-    },
-    {
-      "title": "Macbook PROLED Review: It's Not About That",
-      "category": "Technology",
-      "description": "YouTube viral signal — Technology creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "426f588d-f651-4d31-8679-88441ab4b3d1",
-      "viral_score": 61,
-      "confidence_score": 66,
-      "growth_velocity": "High",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "MACBOOK PROLED REVIEW",
-      "hashtags": [
-        "#Macbook",
-        "#PROLED",
-        "#Review",
-        "#TechTok",
-        "#Innovation",
-        "#TechTrend",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Stop scrolling — Macbook PROLED Review is the next viral wave",
-        "POV: Macbook PROLED Review changed everything",
-        "Nobody expected Macbook PROLED Review to explode"
-      ],
-      "ai_analysis": "'Macbook PROLED Review' shows high growth on YouTube with viral score 61/99. Competition is medium and saturation risk is low. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "hdMszZ2ah5Q",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 72.8,
-          "competition_score": 50.0,
-          "saturation_score": 38.0,
-          "creator_opportunity_score": 62.1,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.408877+00:00"
-    },
-    {
-      "title": "Codex & AI Coding Agents - Learn Agentic Coding",
-      "category": "Education",
-      "description": "YouTube viral signal — Education creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "1536fced-7c3e-407e-bf78-4ba7b069eab1",
-      "viral_score": 61,
-      "confidence_score": 66,
-      "growth_velocity": "High",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "NEW VIRAL TREND",
-      "hashtags": [
-        "#Codex",
-        "#Coding",
-        "#Agents",
-        "#LearnOnTikTok",
-        "#EduTok",
-        "#HowTo",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Nobody expected Codex Coding Agents to explode",
-        "This Codex Coding Agents trend is everywhere",
-        "I tried Codex Coding Agents for 7 days — here's what happened"
-      ],
-      "ai_analysis": "'Codex Coding Agents' shows high growth on YouTube with viral score 61/99. Competition is medium and saturation risk is low. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "ajfQWhGQGLE",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 72.8,
-          "competition_score": 50.0,
-          "saturation_score": 39.0,
-          "creator_opportunity_score": 61.9,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.461480+00:00"
-    },
-    {
-      "title": "Jensen Huang just pulled out of Nvidia...",
-      "category": "Creator",
-      "description": "YouTube viral signal — Creator creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "67541d73-3812-46f6-b2cf-ee72da520226",
-      "viral_score": 61,
-      "confidence_score": 66,
-      "growth_velocity": "High",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "JENSEN HUANG JUST",
-      "hashtags": [
-        "#Jensen",
-        "#Huang",
-        "#just",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Stop scrolling — Jensen Huang just is the next viral wave",
-        "POV: Jensen Huang just changed everything",
-        "Nobody expected Jensen Huang just to explode"
-      ],
-      "ai_analysis": "'Jensen Huang just' shows high growth on YouTube with viral score 61/99. Competition is medium and saturation risk is low. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "SOwUWPtXQ9I",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 72.8,
-          "competition_score": 50.0,
-          "saturation_score": 37.0,
-          "creator_opportunity_score": 62.3,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.492227+00:00"
+      "created_at": "2026-11-15T04:43:38.823809+00:00"
     },
     {
       "title": "Contact",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Contact",
       "source": "tiktok_discovery",
-      "id": "a451b079-92e4-486b-8e5f-63c5fcc76ee6",
+      "id": "70ad14dc-8a55-4d4a-b96a-d3eedd43259a",
       "viral_score": 61,
       "confidence_score": 57,
       "growth_velocity": "High",
@@ -1989,14 +1543,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133294+00:00"
+      "created_at": "2026-11-15T04:43:38.823726+00:00"
     },
     {
       "title": "Programs",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Programs",
       "source": "tiktok_discovery",
-      "id": "f616471e-88be-4bdc-bdfe-5fdbcaa8da29",
+      "id": "bd71e0dc-2dcf-480b-82a1-47034fca8d57",
       "viral_score": 61,
       "confidence_score": 57,
       "growth_velocity": "High",
@@ -2047,14 +1601,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133313+00:00"
+      "created_at": "2026-11-15T04:43:38.823741+00:00"
     },
     {
       "title": "Advertise",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Advertise",
       "source": "tiktok_discovery",
-      "id": "3ce21863-fb81-45de-abad-a3e14a97abff",
+      "id": "71c13106-28e9-49d5-a285-06ecaeb0cc4f",
       "viral_score": 61,
       "confidence_score": 57,
       "growth_velocity": "High",
@@ -2105,14 +1659,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133331+00:00"
+      "created_at": "2026-11-15T04:43:38.823757+00:00"
     },
     {
       "title": "Developers",
       "category": "Short-Form",
       "description": "TikTok hashtag trend: #Developers",
       "source": "tiktok_discovery",
-      "id": "8be43254-6dc1-4a78-a831-e5fd77313293",
+      "id": "aac3b245-39e5-43d5-8543-ac1854c54957",
       "viral_score": 61,
       "confidence_score": 57,
       "growth_velocity": "High",
@@ -2163,203 +1717,72 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:34.133359+00:00"
+      "created_at": "2026-11-15T04:43:38.823794+00:00"
     },
     {
-      "title": "I Recreated Hunger Games In Real Life",
-      "category": "Entertainment",
-      "description": "YouTube viral signal — Entertainment creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "ef310dae-64fe-4a15-aa95-c2e68fbbc878",
-      "viral_score": 60,
-      "confidence_score": 66,
+      "title": "Support",
+      "category": "Short-Form",
+      "description": "TikTok hashtag trend: #Support",
+      "source": "tiktok_discovery",
+      "id": "d3c073d9-1d5e-49a8-972e-11d25619ebc3",
+      "viral_score": 61,
+      "confidence_score": 57,
       "growth_velocity": "High",
-      "competition_level": "High",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "YOU NEED TO SEE THIS",
+      "competition_level": "Medium",
+      "saturation_risk": "Medium",
+      "best_platform": "TikTok",
+      "thumbnail_text": "TREND ALERT",
       "hashtags": [
-        "#Recreated",
-        "#Hunger",
-        "#Games",
-        "#Entertainment",
-        "#ViralVideo",
-        "#Trending",
-        "#YouTube",
+        "#Support",
+        "#Shorts",
+        "#Reels",
+        "#FYP",
+        "#Viral",
+        "#TikTok",
         "#ViralScope"
       ],
       "hook_ideas": [
-        "I tried Recreated Hunger Games for 7 days — here's what happened",
-        "Why Recreated Hunger Games is blowing up right now",
-        "The Recreated Hunger Games trend creators don't want you to miss"
+        "Why Support is blowing up right now",
+        "The Support trend creators don't want you to miss",
+        "Stop scrolling — Support is the next viral wave"
       ],
-      "ai_analysis": "'Recreated Hunger Games' shows high growth on YouTube with viral score 60/99. Competition is high and saturation risk is low. Act within 48–72 hours to capture peak algorithmic lift.",
+      "ai_analysis": "'Support' shows high growth on TikTok with viral score 61/99. Competition is medium and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
       "creator_insights": [
         "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "q6fgVVmdpgY",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 72.8,
-          "competition_score": 68.0,
-          "saturation_score": 41.0,
-          "creator_opportunity_score": 57.9,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.425790+00:00"
-    },
-    {
-      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
-      "category": "Technology",
-      "description": "YouTube viral signal — Technology creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "53bee00e-297d-4d76-96ee-992e209e1324",
-      "viral_score": 59,
-      "confidence_score": 65,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "META GLASSES WHAT",
-      "hashtags": [
-        "#Meta",
-        "#Glasses",
-        "#What",
-        "#TechTok",
-        "#Innovation",
-        "#TechTrend",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Stop scrolling — Meta Glasses What is the next viral wave",
-        "POV: Meta Glasses What changed everything",
-        "Nobody expected Meta Glasses What to explode"
-      ],
-      "ai_analysis": "'Meta Glasses What' shows moderate growth on YouTube with viral score 59/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
         "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
+        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
+        "Primary platform signal: TikTok — optimize format for that algorithm"
       ],
       "raw_signals": {
-        "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "_x58r9TBois",
-        "signal_type": "video_trend",
+        "signal_type": "hashtag_trend",
         "velocity_hint": "high",
         "source_mentions": 1,
         "merged_sources": [
-          "youtube_trending"
+          "tiktok_discovery"
         ],
         "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
+          "keyword_popularity": 54.0,
+          "trend_velocity": 94,
           "reddit_engagement": 45.0,
-          "youtube_position": 79,
+          "youtube_position": 45.0,
           "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 68.9,
+          "tiktok_hashtag": 82,
+          "engagement_potential": 53.0,
+          "growth_score": 75.1,
           "competition_score": 50.0,
-          "saturation_score": 38.0,
-          "creator_opportunity_score": 60.7,
+          "saturation_score": 51.0,
+          "creator_opportunity_score": 59.3,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:30.408922+00:00"
-    },
-    {
-      "title": "Godot 4 Roguelike Course – Build a Complete Top-Down Action Game",
-      "category": "Education",
-      "description": "YouTube viral signal — Education creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "85b62829-88df-4b27-be96-82f9d6b3e43b",
-      "viral_score": 59,
-      "confidence_score": 65,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#Godot",
-        "#Roguelike",
-        "#Course",
-        "#LearnOnTikTok",
-        "#EduTok",
-        "#HowTo",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The Godot Roguelike Course trend creators don't want you to miss",
-        "Stop scrolling — Godot Roguelike Course is the next viral wave",
-        "POV: Godot Roguelike Course changed everything"
-      ],
-      "ai_analysis": "'Godot Roguelike Course' shows moderate growth on YouTube with viral score 59/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "eHHxRJulX74",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 79,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 68.9,
-          "competition_score": 50.0,
-          "saturation_score": 39.0,
-          "creator_opportunity_score": 60.5,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.461551+00:00"
+      "created_at": "2026-11-15T04:43:38.823816+00:00"
     },
     {
       "title": "Mini Documentary Stories",
       "category": "Education",
       "description": "60-second deep dives on fascinating topics",
       "source": "shorts_reels_niches",
-      "id": "2175db1f-c312-425e-8492-1eefa09a1b29",
+      "id": "1d95c22d-41f7-4266-b48b-30d4cc061225",
       "viral_score": 59,
       "confidence_score": 56,
       "growth_velocity": "Moderate",
@@ -2411,25 +1834,25 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801352+00:00"
+      "created_at": "2026-11-15T04:43:45.093198+00:00"
     },
     {
-      "title": "43k+ new periodic solutions to the three body problem found by volunteers",
+      "title": "DeepSeek's New LLM Engine Just Made GPUs 3x More Valuable [video]",
       "category": "Emerging",
       "description": "Early-stage creator opportunity signal",
       "source": "emerging_creator_topics",
-      "id": "f6385498-4934-4cb7-ab89-e16fc0d3bdc9",
+      "id": "1aa8e94f-a6d2-45f9-b7f0-dad109d5b8a0",
       "viral_score": 59,
       "confidence_score": 56,
       "growth_velocity": "Moderate",
       "competition_level": "Low",
       "saturation_risk": "Very Low",
       "best_platform": "Multi-Platform",
-      "thumbnail_text": "TREND ALERT",
+      "thumbnail_text": "YOU NEED TO SEE THIS",
       "hashtags": [
-        "#43k",
-        "#new",
-        "#periodic",
+        "#DeepSeeks",
+        "#New",
+        "#LLM",
         "#EmergingTrend",
         "#EarlyMover",
         "#NicheContent",
@@ -2437,11 +1860,11 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Why 43k new periodic is blowing up right now",
-        "The 43k new periodic trend creators don't want you to miss",
-        "Stop scrolling — 43k new periodic is the next viral wave"
+        "I tried DeepSeeks New LLM for 7 days — here's what happened",
+        "Why DeepSeeks New LLM is blowing up right now",
+        "The DeepSeeks New LLM trend creators don't want you to miss"
       ],
-      "ai_analysis": "'43k new periodic' shows moderate growth on Multi-Platform with viral score 59/99. Competition is low and saturation risk is very low. Monitor momentum and test 2–3 content angles before scaling.",
+      "ai_analysis": "'DeepSeeks New LLM' shows moderate growth on Multi-Platform with viral score 59/99. Competition is low and saturation risk is very low. Monitor momentum and test 2–3 content angles before scaling.",
       "creator_insights": [
         "Growth velocity is Moderate — publish within 48h to ride the wave",
         "Competition is Low — differentiate with a unique POV or niche angle",
@@ -2470,14 +1893,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:42.418165+00:00"
+      "created_at": "2026-11-15T04:43:48.641866+00:00"
     },
     {
       "title": "Faceless Finance Channels",
       "category": "Finance",
       "description": "Anonymous personal finance content with screen recordings",
       "source": "emerging_creator_topics",
-      "id": "1eb8e9be-98b9-4d27-84ae-852452af5fcf",
+      "id": "ded14627-d325-4813-a30d-178259c60ef4",
       "viral_score": 59,
       "confidence_score": 54,
       "growth_velocity": "Moderate",
@@ -2528,14 +1951,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755305+00:00"
+      "created_at": "2026-11-15T04:43:51.908272+00:00"
     },
     {
       "title": "Micro SaaS Building",
       "category": "Technology",
       "description": "Building tiny software products in public",
       "source": "emerging_creator_topics",
-      "id": "af5e16a2-24ad-43f9-8151-3e6fae1674e5",
+      "id": "4a8803d8-dc8a-4568-99fa-a467bcd35718",
       "viral_score": 59,
       "confidence_score": 54,
       "growth_velocity": "Moderate",
@@ -2586,14 +2009,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755343+00:00"
+      "created_at": "2026-11-15T04:43:51.908306+00:00"
     },
     {
       "title": "ADHD Productivity Systems",
       "category": "Education",
       "description": "Neurodivergent-friendly productivity frameworks",
       "source": "emerging_creator_topics",
-      "id": "7d7b8774-2826-4232-8635-c6985d6cff1b",
+      "id": "45033e28-f6cd-4f5e-92d7-f601eb8b183f",
       "viral_score": 59,
       "confidence_score": 54,
       "growth_velocity": "Moderate",
@@ -2644,277 +2067,25 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.755369+00:00"
+      "created_at": "2026-11-15T04:43:51.908328+00:00"
     },
     {
-      "title": "OLED iPad Mini is The Most Apple Product They've Ever Appled",
-      "category": "Technology",
-      "description": "YouTube viral signal — Technology creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "ffce5b1b-4f1a-4082-83ab-cd5dcf28c482",
-      "viral_score": 58,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "NEW VIRAL TREND",
-      "hashtags": [
-        "#OLED",
-        "#iPad",
-        "#Mini",
-        "#TechTok",
-        "#Innovation",
-        "#TechTrend",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Nobody expected OLED iPad Mini to explode",
-        "This OLED iPad Mini trend is everywhere",
-        "I tried OLED iPad Mini for 7 days — here's what happened"
-      ],
-      "ai_analysis": "'OLED iPad Mini' shows moderate growth on YouTube with viral score 58/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "g6Die8gVFn0",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 67.7,
-          "competition_score": 50.0,
-          "saturation_score": 46.0,
-          "creator_opportunity_score": 58.7,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.408945+00:00"
-    },
-    {
-      "title": "Vector Databases Full Course for Beginners – Embeddings, Similarity Search & ChromaDB",
-      "category": "Education",
-      "description": "YouTube viral signal — Education creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "ffce78b4-f7bd-4dab-bd4d-7bd099820942",
-      "viral_score": 58,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "TREND ALERT",
-      "hashtags": [
-        "#Vector",
-        "#Databases",
-        "#Full",
-        "#LearnOnTikTok",
-        "#EduTok",
-        "#HowTo",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Why Vector Databases Full is blowing up right now",
-        "The Vector Databases Full trend creators don't want you to miss",
-        "Stop scrolling — Vector Databases Full is the next viral wave"
-      ],
-      "ai_analysis": "'Vector Databases Full' shows moderate growth on YouTube with viral score 58/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "lR931Iz8Z6U",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 67.7,
-          "competition_score": 50.0,
-          "saturation_score": 46.0,
-          "creator_opportunity_score": 58.7,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.461579+00:00"
-    },
-    {
-      "title": "Did Anthropic just save its $1 trillion IPO?",
-      "category": "Creator",
-      "description": "YouTube viral signal — Creator creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "69deacc2-1831-466f-bb03-b1f02b54a040",
-      "viral_score": 58,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#Did",
-        "#Anthropic",
-        "#just",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The Did Anthropic just trend creators don't want you to miss",
-        "Stop scrolling — Did Anthropic just is the next viral wave",
-        "POV: Did Anthropic just changed everything"
-      ],
-      "ai_analysis": "'Did Anthropic just' shows moderate growth on YouTube with viral score 58/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "1FurWDiK9A4",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 66.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 79,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 56.0,
-          "growth_score": 68.9,
-          "competition_score": 50.0,
-          "saturation_score": 38.0,
-          "creator_opportunity_score": 60.5,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.492268+00:00"
-    },
-    {
-      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
-      "category": "Creator",
-      "description": "YouTube viral signal — Creator creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "77a119f4-89fc-4f3b-8b72-f6e4c247d71d",
-      "viral_score": 58,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#OpenAI",
-        "#spent",
-        "#million",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The OpenAI spent million trend creators don't want you to miss",
-        "Stop scrolling — OpenAI spent million is the next viral wave",
-        "POV: OpenAI spent million changed everything"
-      ],
-      "ai_analysis": "'OpenAI spent million' shows moderate growth on YouTube with viral score 58/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "pf5tXJZM1Rw",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 67.7,
-          "competition_score": 50.0,
-          "saturation_score": 46.0,
-          "creator_opportunity_score": 58.7,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.492289+00:00"
-    },
-    {
-      "title": "FAA Rolled Out New AI Traffic Tool Right Before Nationwide Ground Stop",
+      "title": "Game Repacker DODI Retires Ahead of Wedding, Hands Site to New Team",
       "category": "Emerging",
       "description": "Early-stage creator opportunity signal",
       "source": "emerging_creator_topics",
-      "id": "00c0a82a-b267-4814-8f7d-7c54c6dadd93",
+      "id": "9a14a4aa-efbc-4ca9-b8e3-237b87699321",
       "viral_score": 58,
       "confidence_score": 56,
       "growth_velocity": "Moderate",
       "competition_level": "Low",
       "saturation_risk": "Low",
       "best_platform": "Multi-Platform",
-      "thumbnail_text": "NEW VIRAL TREND",
+      "thumbnail_text": "EVERYONE IS TRYING THIS",
       "hashtags": [
-        "#FAA",
-        "#Rolled",
-        "#Out",
+        "#Game",
+        "#Repacker",
+        "#DODI",
         "#EmergingTrend",
         "#EarlyMover",
         "#NicheContent",
@@ -2922,11 +2093,70 @@
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Nobody expected FAA Rolled Out to explode",
-        "This FAA Rolled Out trend is everywhere",
-        "I tried FAA Rolled Out for 7 days — here's what happened"
+        "This Game Repacker DODI trend is everywhere",
+        "I tried Game Repacker DODI for 7 days — here's what happened",
+        "Why Game Repacker DODI is blowing up right now"
       ],
-      "ai_analysis": "'FAA Rolled Out' shows moderate growth on Multi-Platform with viral score 58/99. Competition is low and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
+      "ai_analysis": "'Game Repacker DODI' shows moderate growth on Multi-Platform with viral score 58/99. Competition is low and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
+      "creator_insights": [
+        "Growth velocity is Moderate — publish within 48h to ride the wave",
+        "Competition is Low — differentiate with a unique POV or niche angle",
+        "Saturation risk is Low — move fast before the niche fills up",
+        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
+      ],
+      "raw_signals": {
+        "signal_type": "emerging_news",
+        "feed": "https://hnrss.org/newest?q=emerging+creator+OR+new+niche+OR+untapped",
+        "source_mentions": 1,
+        "merged_sources": [
+          "emerging_creator_topics"
+        ],
+        "scoring": {
+          "keyword_popularity": 70.0,
+          "trend_velocity": 86,
+          "reddit_engagement": 45.0,
+          "youtube_position": 45.0,
+          "google_trends_rank": 48.0,
+          "tiktok_hashtag": 48.0,
+          "engagement_potential": 57.0,
+          "growth_score": 64.7,
+          "competition_score": 28.0,
+          "saturation_score": 27.0,
+          "creator_opportunity_score": 65.9,
+          "cross_source_boost": 0.0
+        }
+      },
+      "created_at": "2026-11-15T04:43:48.641838+00:00"
+    },
+    {
+      "title": "Reading Tab – an offline ePub/PDF/MOBI reader that lives in your new tab",
+      "category": "Emerging",
+      "description": "Early-stage creator opportunity signal",
+      "source": "emerging_creator_topics",
+      "id": "ee9351f9-aaf7-47bf-bdbe-d27978e9653c",
+      "viral_score": 58,
+      "confidence_score": 56,
+      "growth_velocity": "Moderate",
+      "competition_level": "Low",
+      "saturation_risk": "Low",
+      "best_platform": "Multi-Platform",
+      "thumbnail_text": "EVERYONE IS TRYING THIS",
+      "hashtags": [
+        "#Reading",
+        "#Tab",
+        "#offline",
+        "#EmergingTrend",
+        "#EarlyMover",
+        "#NicheContent",
+        "#ContentCreator",
+        "#ViralScope"
+      ],
+      "hook_ideas": [
+        "This Reading Tab offline trend is everywhere",
+        "I tried Reading Tab offline for 7 days — here's what happened",
+        "Why Reading Tab offline is blowing up right now"
+      ],
+      "ai_analysis": "'Reading Tab offline' shows moderate growth on Multi-Platform with viral score 58/99. Competition is low and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
       "creator_insights": [
         "Growth velocity is Moderate — publish within 48h to ride the wave",
         "Competition is Low — differentiate with a unique POV or niche angle",
@@ -2955,73 +2185,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:42.418190+00:00"
-    },
-    {
-      "title": "Show HN: Scatter – better way to learn new things with AI",
-      "category": "Emerging",
-      "description": "Early-stage creator opportunity signal",
-      "source": "emerging_creator_topics",
-      "id": "052d448a-99fa-475b-a10a-e20fd040ba9c",
-      "viral_score": 58,
-      "confidence_score": 56,
-      "growth_velocity": "Moderate",
-      "competition_level": "Low",
-      "saturation_risk": "Low",
-      "best_platform": "Multi-Platform",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#Show",
-        "#Scatter",
-        "#better",
-        "#EmergingTrend",
-        "#EarlyMover",
-        "#NicheContent",
-        "#ContentCreator",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The Show Scatter better trend creators don't want you to miss",
-        "Stop scrolling — Show Scatter better is the next viral wave",
-        "POV: Show Scatter better changed everything"
-      ],
-      "ai_analysis": "'Show Scatter better' shows moderate growth on Multi-Platform with viral score 58/99. Competition is low and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Low — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "signal_type": "emerging_news",
-        "feed": "https://hnrss.org/newest?q=emerging+creator+OR+new+niche+OR+untapped",
-        "source_mentions": 1,
-        "merged_sources": [
-          "emerging_creator_topics"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 86,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 64.7,
-          "competition_score": 28.0,
-          "saturation_score": 26.0,
-          "creator_opportunity_score": 66.1,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:42.418201+00:00"
+      "created_at": "2026-11-15T04:43:48.641876+00:00"
     },
     {
       "title": "Ask HN: What customer acquisition channel is working best for you?",
       "category": "Emerging",
       "description": "Early-stage creator opportunity signal",
       "source": "emerging_creator_topics",
-      "id": "77e9b242-4155-4989-8559-22ab66e8a64b",
+      "id": "a0a9c432-6296-4c4b-a0e6-3ee21583f4cc",
       "viral_score": 58,
       "confidence_score": 56,
       "growth_velocity": "Moderate",
@@ -3073,14 +2244,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.754305+00:00"
+      "created_at": "2026-11-15T04:43:51.907314+00:00"
     },
     {
       "title": "Data centers need power – lower income, rural residents pay the price",
       "category": "Emerging",
       "description": "Early-stage creator opportunity signal",
       "source": "emerging_creator_topics",
-      "id": "a958abc8-07fc-49af-8073-6aa7aeebc059",
+      "id": "5341e784-8d9d-45db-b1b0-894aea5971b3",
       "viral_score": 58,
       "confidence_score": 56,
       "growth_velocity": "Moderate",
@@ -3132,327 +2303,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:45.754316+00:00"
-    },
-    {
-      "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
-      "category": "Technology",
-      "description": "YouTube viral signal — Technology creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "774755c7-d587-4625-b9c4-96eb7c0639e3",
-      "viral_score": 57,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "THIS IS BLOWING UP",
-      "hashtags": [
-        "#Macbook",
-        "#PROLED",
-        "#XDR",
-        "#TechTok",
-        "#Innovation",
-        "#TechTrend",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "POV: Macbook PROLED XDR changed everything",
-        "Nobody expected Macbook PROLED XDR to explode",
-        "This Macbook PROLED XDR trend is everywhere"
-      ],
-      "ai_analysis": "'Macbook PROLED XDR' shows moderate growth on YouTube with viral score 57/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "2reQut8WNGc",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 66.5,
-          "competition_score": 50.0,
-          "saturation_score": 48.0,
-          "creator_opportunity_score": 57.9,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.408965+00:00"
-    },
-    {
-      "title": "I Failed",
-      "category": "Gaming",
-      "description": "YouTube viral signal — Gaming creators (US), feed position #1",
-      "source": "youtube_trending",
-      "id": "af8aa268-67b4-4ec7-9090-9f263e6558f4",
-      "viral_score": 57,
-      "confidence_score": 64,
-      "growth_velocity": "High",
-      "competition_level": "High",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "EVERYONE IS TRYING THIS",
-      "hashtags": [
-        "#Failed",
-        "#Gaming",
-        "#Gamer",
-        "#Gameplay",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "This Failed trend is everywhere",
-        "I tried Failed for 7 days — here's what happened",
-        "Why Failed is blowing up right now"
-      ],
-      "ai_analysis": "'Failed' shows high growth on YouTube with viral score 57/99. Competition is high and saturation risk is medium. Act within 48–72 hours to capture peak algorithmic lift.",
-      "creator_insights": [
-        "Growth velocity is High — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-        "region": "US",
-        "feed_position": 1,
-        "video_id": "I7IaqRJMi9w",
-        "signal_type": "video_trend",
-        "velocity_hint": "extreme",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 54.0,
-          "trend_velocity": 90,
-          "reddit_engagement": 45.0,
-          "youtube_position": 87,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 53.0,
-          "growth_score": 72.8,
-          "competition_score": 68.0,
-          "saturation_score": 49.0,
-          "creator_opportunity_score": 55.3,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.440306+00:00"
-    },
-    {
-      "title": "I seriously should NOT be dropping this.",
-      "category": "Gaming",
-      "description": "YouTube viral signal — Gaming creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "3fa2004f-4c06-436c-a705-705f7574022b",
-      "viral_score": 57,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#seriously",
-        "#should",
-        "#NOT",
-        "#Gaming",
-        "#Gamer",
-        "#Gameplay",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The seriously should NOT trend creators don't want you to miss",
-        "Stop scrolling — seriously should NOT is the next viral wave",
-        "POV: seriously should NOT changed everything"
-      ],
-      "ai_analysis": "'seriously should NOT' shows moderate growth on YouTube with viral score 57/99. Competition is high and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "ODDJXGY_1kQ",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 66.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 56.0,
-          "growth_score": 67.7,
-          "competition_score": 68.0,
-          "saturation_score": 41.0,
-          "creator_opportunity_score": 55.9,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.440355+00:00"
-    },
-    {
-      "title": "How Ethical Hackers Actually Break Into Systems",
-      "category": "Education",
-      "description": "YouTube viral signal — Education creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "caa8e40d-1816-4337-95da-88af9952bf9e",
-      "viral_score": 57,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "TREND ALERT",
-      "hashtags": [
-        "#How",
-        "#Ethical",
-        "#Hackers",
-        "#LearnOnTikTok",
-        "#EduTok",
-        "#HowTo",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Why How Ethical Hackers is blowing up right now",
-        "The How Ethical Hackers trend creators don't want you to miss",
-        "Stop scrolling — How Ethical Hackers is the next viral wave"
-      ],
-      "ai_analysis": "'How Ethical Hackers' shows moderate growth on YouTube with viral score 57/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "cqfl38Ip1ho",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 66.5,
-          "competition_score": 50.0,
-          "saturation_score": 42.0,
-          "creator_opportunity_score": 59.1,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.461603+00:00"
-    },
-    {
-      "title": "The one thing holding theoretical CS together just broke... kinda",
-      "category": "Creator",
-      "description": "YouTube viral signal — Creator creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "b830498c-86ff-4fe9-9b77-0ee2144f5b3f",
-      "viral_score": 57,
-      "confidence_score": 64,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "TREND ALERT",
-      "hashtags": [
-        "#The",
-        "#one",
-        "#thing",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Why The one thing is blowing up right now",
-        "The The one thing trend creators don't want you to miss",
-        "Stop scrolling — The one thing is the next viral wave"
-      ],
-      "ai_analysis": "'The one thing' shows moderate growth on YouTube with viral score 57/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "iw9SZgyahqg",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 66.5,
-          "competition_score": 50.0,
-          "saturation_score": 51.0,
-          "creator_opportunity_score": 57.3,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.492308+00:00"
+      "created_at": "2026-11-15T04:43:51.907323+00:00"
     },
     {
       "title": "Street Interview Reactions",
       "category": "Entertainment",
       "description": "Spontaneous public interviews driving comment sections",
       "source": "shorts_reels_niches",
-      "id": "762fae40-1e6f-49ab-a869-2e041d7e967a",
+      "id": "85316642-54e1-42c4-81c2-b08e4fea018d",
       "viral_score": 57,
       "confidence_score": 54,
       "growth_velocity": "Moderate",
@@ -3504,323 +2362,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801314+00:00"
-    },
-    {
-      "title": "Unboxing The World’s Largest Toy",
-      "category": "Entertainment",
-      "description": "YouTube viral signal — Entertainment creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "bda51068-3924-4fe3-9bb6-e898f44fd4a5",
-      "viral_score": 56,
-      "confidence_score": 63,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "EVERYONE IS TRYING THIS",
-      "hashtags": [
-        "#Unboxing",
-        "#The",
-        "#Worlds",
-        "#Entertainment",
-        "#ViralVideo",
-        "#Trending",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "This Unboxing The Worlds trend is everywhere",
-        "I tried Unboxing The Worlds for 7 days — here's what happened",
-        "Why Unboxing The Worlds is blowing up right now"
-      ],
-      "ai_analysis": "'Unboxing The Worlds' shows moderate growth on YouTube with viral score 56/99. Competition is high and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "sHpEqeSByPI",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 62.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 79,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 55.0,
-          "growth_score": 68.9,
-          "competition_score": 68.0,
-          "saturation_score": 50.0,
-          "creator_opportunity_score": 54.2,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.425824+00:00"
-    },
-    {
-      "title": "I Google Myself..",
-      "category": "Gaming",
-      "description": "YouTube viral signal — Gaming creators (US), feed position #2",
-      "source": "youtube_trending",
-      "id": "11c67c5b-bec1-4922-97c4-fc473cf5e013",
-      "viral_score": 56,
-      "confidence_score": 63,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "GOOGLE MYSELF",
-      "hashtags": [
-        "#Google",
-        "#Myself",
-        "#Gaming",
-        "#Gamer",
-        "#Gameplay",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Stop scrolling — Google Myself is the next viral wave",
-        "POV: Google Myself changed everything",
-        "Nobody expected Google Myself to explode"
-      ],
-      "ai_analysis": "'Google Myself' shows moderate growth on YouTube with viral score 56/99. Competition is high and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-        "region": "US",
-        "feed_position": 2,
-        "video_id": "U6I5PkZjWZU",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 58.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 79,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 54.0,
-          "growth_score": 68.9,
-          "competition_score": 68.0,
-          "saturation_score": 43.0,
-          "creator_opportunity_score": 55.4,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.440336+00:00"
-    },
-    {
-      "title": "Creative Tools",
-      "category": "Short-Form",
-      "description": "TikTok discovery trend: Creative Tools",
-      "source": "tiktok_discovery",
-      "id": "895ceedb-22fe-4341-9916-0477cf3e0215",
-      "viral_score": 56,
-      "confidence_score": 52,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Low",
-      "best_platform": "TikTok",
-      "thumbnail_text": "CREATIVE TOOLS",
-      "hashtags": [
-        "#Creative",
-        "#Tools",
-        "#Shorts",
-        "#Reels",
-        "#FYP",
-        "#Viral",
-        "#TikTok",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Stop scrolling — Creative Tools is the next viral wave",
-        "POV: Creative Tools changed everything",
-        "Nobody expected Creative Tools to explode"
-      ],
-      "ai_analysis": "'Creative Tools' shows moderate growth on TikTok with viral score 56/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: TikTok — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "signal_type": "page_heading",
-        "source_mentions": 1,
-        "merged_sources": [
-          "tiktok_discovery"
-        ],
-        "scoring": {
-          "keyword_popularity": 58.0,
-          "trend_velocity": 65,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 58,
-          "engagement_potential": 54.0,
-          "growth_score": 57.2,
-          "competition_score": 50.0,
-          "saturation_score": 37.0,
-          "creator_opportunity_score": 56.1,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:32.330046+00:00"
-    },
-    {
-      "title": "Trap Door Roulette",
-      "category": "Entertainment",
-      "description": "YouTube viral signal — Entertainment creators (US), feed position #3",
-      "source": "youtube_trending",
-      "id": "930272fb-277d-4746-8867-42ffd8aca4db",
-      "viral_score": 55,
-      "confidence_score": 63,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "NEW VIRAL TREND",
-      "hashtags": [
-        "#Trap",
-        "#Door",
-        "#Roulette",
-        "#Entertainment",
-        "#ViralVideo",
-        "#Trending",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Nobody expected Trap Door Roulette to explode",
-        "This Trap Door Roulette trend is everywhere",
-        "I tried Trap Door Roulette for 7 days — here's what happened"
-      ],
-      "ai_analysis": "'Trap Door Roulette' shows moderate growth on YouTube with viral score 55/99. Competition is high and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-        "region": "US",
-        "feed_position": 3,
-        "video_id": "kPI9Mc35mOg",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 62.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 71,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 55.0,
-          "growth_score": 67.7,
-          "competition_score": 68.0,
-          "saturation_score": 52.0,
-          "creator_opportunity_score": 53.4,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.425844+00:00"
-    },
-    {
-      "title": "Beat Professional Athlete, Win $100,000",
-      "category": "Entertainment",
-      "description": "YouTube viral signal — Entertainment creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "75c23b3f-c1f7-46f2-b28c-195756784cc3",
-      "viral_score": 55,
-      "confidence_score": 63,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Low",
-      "best_platform": "YouTube",
-      "thumbnail_text": "NEW VIRAL TREND",
-      "hashtags": [
-        "#Beat",
-        "#Professional",
-        "#Athlete",
-        "#Entertainment",
-        "#ViralVideo",
-        "#Trending",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "Nobody expected Beat Professional Athlete to explode",
-        "This Beat Professional Athlete trend is everywhere",
-        "I tried Beat Professional Athlete for 7 days — here's what happened"
-      ],
-      "ai_analysis": "'Beat Professional Athlete' shows moderate growth on YouTube with viral score 55/99. Competition is high and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Low — move fast before the niche fills up",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "_c2e1NcI3Sc",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 62.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 55.0,
-          "growth_score": 66.5,
-          "competition_score": 68.0,
-          "saturation_score": 40.0,
-          "creator_opportunity_score": 55.4,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.425866+00:00"
+      "created_at": "2026-11-15T04:43:45.093163+00:00"
     },
     {
       "title": "1-Minute Life Hacks",
       "category": "Short-Form",
       "description": "Quick actionable tips with instant visual payoff",
       "source": "shorts_reels_niches",
-      "id": "43227b16-8c91-4451-b866-994222030447",
+      "id": "a3e6a9b8-a9b4-4f79-b713-428286fd6333",
       "viral_score": 55,
       "confidence_score": 53,
       "growth_velocity": "Moderate",
@@ -3873,14 +2422,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801275+00:00"
+      "created_at": "2026-11-15T04:43:45.093128+00:00"
     },
     {
       "title": "Oddly Satisfying Clips",
       "category": "Entertainment",
       "description": "ASMR-adjacent content with loop-worthy appeal",
       "source": "shorts_reels_niches",
-      "id": "d589020f-94b3-4514-b04a-41de53fdfd8f",
+      "id": "a5e0f5f5-f4c7-4c21-9e68-bb09cfdaeb6e",
       "viral_score": 55,
       "confidence_score": 53,
       "growth_velocity": "Moderate",
@@ -3932,14 +2481,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801302+00:00"
+      "created_at": "2026-11-15T04:43:45.093152+00:00"
     },
     {
       "title": "Budget Meal Prep",
       "category": "Food",
       "description": "Cost-conscious cooking content with shareability",
       "source": "shorts_reels_niches",
-      "id": "ed7e05f1-b0ad-4fdf-ac21-ec0e5a4a79cb",
+      "id": "2b56a791-a840-4856-87d3-aad63571208a",
       "viral_score": 55,
       "confidence_score": 53,
       "growth_velocity": "Moderate",
@@ -3991,14 +2540,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801324+00:00"
+      "created_at": "2026-11-15T04:43:45.093171+00:00"
     },
     {
       "title": "Fireside with Jesse Vincent, Creator of Superpowers [video]",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=JTVTJJzKu4E\">https://www.youtube.com/watch?v=JTVTJJzKu4E</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50491853\">https",
       "source": "ai_creator_trends",
-      "id": "4203de36-63af-430d-b9d8-9333a11bd6a7",
+      "id": "0b4bae11-c83b-4475-ab74-7513900c7ce2",
       "viral_score": 54,
       "confidence_score": 72,
       "growth_velocity": "Moderate",
@@ -4051,77 +2600,14 @@
           "cross_source_boost": 8.0
         }
       },
-      "created_at": "2026-11-14T17:39:09.710718+00:00"
-    },
-    {
-      "title": "Thank you and Goodbye.",
-      "category": "Gaming",
-      "description": "YouTube viral signal — Gaming creators (US), feed position #4",
-      "source": "youtube_trending",
-      "id": "c6b42d8a-4db3-42d1-bdd0-0eaaa169fbd4",
-      "viral_score": 54,
-      "confidence_score": 62,
-      "growth_velocity": "Moderate",
-      "competition_level": "High",
-      "saturation_risk": "Medium",
-      "best_platform": "YouTube",
-      "thumbnail_text": "YOU NEED TO SEE THIS",
-      "hashtags": [
-        "#Thank",
-        "#you",
-        "#and",
-        "#Gaming",
-        "#Gamer",
-        "#Gameplay",
-        "#YouTube",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "I tried Thank you and for 7 days — here's what happened",
-        "Why Thank you and is blowing up right now",
-        "The Thank you and trend creators don't want you to miss"
-      ],
-      "ai_analysis": "'Thank you and' shows moderate growth on YouTube with viral score 54/99. Competition is high and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is High — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: YouTube — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-        "region": "US",
-        "feed_position": 4,
-        "video_id": "H8g4B5ZN7LM",
-        "signal_type": "video_trend",
-        "velocity_hint": "high",
-        "source_mentions": 1,
-        "merged_sources": [
-          "youtube_trending"
-        ],
-        "scoring": {
-          "keyword_popularity": 58.0,
-          "trend_velocity": 84,
-          "reddit_engagement": 45.0,
-          "youtube_position": 63,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 54.0,
-          "growth_score": 66.5,
-          "competition_score": 68.0,
-          "saturation_score": 52.0,
-          "creator_opportunity_score": 52.8,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:30.440376+00:00"
+      "created_at": "2026-11-15T04:43:39.756192+00:00"
     },
     {
       "title": "Productivity Desk Setups",
       "category": "Lifestyle",
       "description": "Workspace optimization content with aspirational appeal",
       "source": "shorts_reels_niches",
-      "id": "ca30c3a7-3334-42ee-8b51-e41c4ca1965a",
+      "id": "a9bb9d95-aef9-40c3-9e1e-113d1cc0d688",
       "viral_score": 54,
       "confidence_score": 53,
       "growth_velocity": "Moderate",
@@ -4173,14 +2659,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801343+00:00"
+      "created_at": "2026-11-15T04:43:45.093186+00:00"
     },
     {
       "title": "Fitness Challenge Series",
       "category": "Fitness",
       "description": "30-day challenge content with built-in retention",
       "source": "shorts_reels_niches",
-      "id": "04771beb-8353-4b1f-aba7-2759173aae73",
+      "id": "4522e966-71f4-438f-844d-a37f62f7e387",
       "viral_score": 54,
       "confidence_score": 53,
       "growth_velocity": "Moderate",
@@ -4232,14 +2718,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801362+00:00"
+      "created_at": "2026-11-15T04:43:45.093206+00:00"
     },
     {
       "title": "Glow Up Transformations",
       "category": "Beauty",
       "description": "Before/after aesthetic transformations",
       "source": "shorts_reels_niches",
-      "id": "592bb1ed-3b6f-4b99-9015-4e8db741ecfc",
+      "id": "b2b2f23f-5e95-4c35-aac9-587ae89d03f2",
       "viral_score": 53,
       "confidence_score": 52,
       "growth_velocity": "Moderate",
@@ -4290,14 +2776,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:38.801333+00:00"
+      "created_at": "2026-11-15T04:43:45.093179+00:00"
     },
     {
       "title": "ChatGPT Workflow Tutorials",
       "category": "Creator",
       "description": "Step-by-step AI productivity content for creators",
       "source": "ai_creator_trends",
-      "id": "8858c351-cc40-4402-8c10-d9f1b6483c53",
+      "id": "26f7d17c-d257-496a-b225-ae9534c4eb1b",
       "viral_score": 53,
       "confidence_score": 51,
       "growth_velocity": "Moderate",
@@ -4349,14 +2835,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.620833+00:00"
+      "created_at": "2026-11-15T04:43:40.355539+00:00"
     },
     {
       "title": "AI Avatar Channels",
       "category": "Creator",
       "description": "Faceless AI-generated presenter channels gaining traction",
       "source": "ai_creator_trends",
-      "id": "3fa2437a-bddc-4fd5-b943-30651de65ed0",
+      "id": "63cb82c2-21b5-4350-a032-7b3c0bb7e1e1",
       "viral_score": 51,
       "confidence_score": 50,
       "growth_velocity": "Moderate",
@@ -4407,154 +2893,36 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.620816+00:00"
+      "created_at": "2026-11-15T04:43:40.355522+00:00"
     },
     {
-      "title": "Jensen Huang's departure blasts big hole in AI startup funding",
+      "title": "Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
       "category": "Creator",
-      "description": "<p>Article URL: <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">https://techcrunch.com/2026/11/13/jensen-huangs-departur",
+      "description": "<p>Article URL: <a href=\"https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d\">https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d</a></p>\n<p>Comments URL: <a hr",
       "source": "ai_creator_trends",
-      "id": "c51f99cd-6f87-43af-9129-55818a34aea4",
-      "viral_score": 47,
-      "confidence_score": 49,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "Multi-Platform",
-      "thumbnail_text": "GOING VIRAL NOW",
-      "hashtags": [
-        "#Jensen",
-        "#Huangs",
-        "#departure",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "The Jensen Huangs departure trend creators don't want you to miss",
-        "Stop scrolling — Jensen Huangs departure is the next viral wave",
-        "POV: Jensen Huangs departure changed everything"
-      ],
-      "ai_analysis": "'Jensen Huangs departure' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "signal_type": "ai_news",
-        "feed": "https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+faceless+channel",
-        "velocity_hint": "moderate",
-        "source_mentions": 1,
-        "merged_sources": [
-          "ai_creator_trends"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 68,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 56.6,
-          "competition_score": 50.0,
-          "saturation_score": 46.0,
-          "creator_opportunity_score": 54.8,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:52.990224+00:00"
-    },
-    {
-      "title": "Preventing an AI catastrophe, a brief into to analysis by synthesis",
-      "category": "Creator",
-      "description": "<p>Article URL: <a href=\"https://shukla.io/blog/2026-11/analysis-by-synthesis.html\">https://shukla.io/blog/2026-11/analysis-by-synthesis.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator",
-      "source": "ai_creator_trends",
-      "id": "c6aac590-d066-41da-a799-3601a7493b02",
-      "viral_score": 47,
-      "confidence_score": 49,
-      "growth_velocity": "Moderate",
-      "competition_level": "Medium",
-      "saturation_risk": "Medium",
-      "best_platform": "Multi-Platform",
-      "thumbnail_text": "THIS IS BLOWING UP",
-      "hashtags": [
-        "#Preventing",
-        "#catastrophe",
-        "#brief",
-        "#ContentCreator",
-        "#CreatorEconomy",
-        "#GoViral",
-        "#ViralScope"
-      ],
-      "hook_ideas": [
-        "POV: Preventing catastrophe brief changed everything",
-        "Nobody expected Preventing catastrophe brief to explode",
-        "This Preventing catastrophe brief trend is everywhere"
-      ],
-      "ai_analysis": "'Preventing catastrophe brief' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
-      "creator_insights": [
-        "Growth velocity is Moderate — publish within 48h to ride the wave",
-        "Competition is Medium — differentiate with a unique POV or niche angle",
-        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
-        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
-      ],
-      "raw_signals": {
-        "signal_type": "ai_news",
-        "feed": "https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+faceless+channel",
-        "velocity_hint": "moderate",
-        "source_mentions": 1,
-        "merged_sources": [
-          "ai_creator_trends"
-        ],
-        "scoring": {
-          "keyword_popularity": 70.0,
-          "trend_velocity": 68,
-          "reddit_engagement": 45.0,
-          "youtube_position": 45.0,
-          "google_trends_rank": 48.0,
-          "tiktok_hashtag": 48.0,
-          "engagement_potential": 57.0,
-          "growth_score": 56.6,
-          "competition_score": 50.0,
-          "saturation_score": 45.0,
-          "creator_opportunity_score": 55.0,
-          "cross_source_boost": 0.0
-        }
-      },
-      "created_at": "2026-11-14T17:38:52.990236+00:00"
-    },
-    {
-      "title": "Cowork – Self-hosted task queue and dashboard for Claude, Codex, and AI agents",
-      "category": "Creator",
-      "description": "<p>Article URL: <a href=\"https://github.com/slashman413/cowork\">https://github.com/slashman413/cowork</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50498282\">https://news.ycom",
-      "source": "ai_creator_trends",
-      "id": "64783b6a-a29d-408e-b51f-cc45ddd501c4",
+      "id": "51dcc244-86be-4f36-a270-9384f0aaeb4f",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
       "competition_level": "Medium",
       "saturation_risk": "Low",
       "best_platform": "Multi-Platform",
-      "thumbnail_text": "TREND ALERT",
+      "thumbnail_text": "GOING VIRAL NOW",
       "hashtags": [
-        "#Cowork",
-        "#Selfhosted",
-        "#task",
+        "#Jensen",
+        "#Huang",
+        "#Built",
         "#ContentCreator",
         "#CreatorEconomy",
         "#GoViral",
         "#ViralScope"
       ],
       "hook_ideas": [
-        "Why Cowork Self-hosted task is blowing up right now",
-        "The Cowork Self-hosted task trend creators don't want you to miss",
-        "Stop scrolling — Cowork Self-hosted task is the next viral wave"
+        "The Jensen Huang Built trend creators don't want you to miss",
+        "Stop scrolling — Jensen Huang Built is the next viral wave",
+        "POV: Jensen Huang Built changed everything"
       ],
-      "ai_analysis": "'Cowork Self-hosted task' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
+      "ai_analysis": "'Jensen Huang Built' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
       "creator_insights": [
         "Growth velocity is Moderate — publish within 48h to ride the wave",
         "Competition is Medium — differentiate with a unique POV or niche angle",
@@ -4584,14 +2952,132 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:52.990246+00:00"
+      "created_at": "2026-11-15T04:43:39.411612+00:00"
+    },
+    {
+      "title": "Anthropic bought a one-person, AI-powered biotech",
+      "category": "Creator",
+      "description": "<p>Article URL: <a href=\"https://www.nature.com/articles/d41586-026-03640-9\">https://www.nature.com/articles/d41586-026-03640-9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=5",
+      "source": "ai_creator_trends",
+      "id": "b3a41e03-8050-4fcc-bd9d-8791263fc2fb",
+      "viral_score": 47,
+      "confidence_score": 49,
+      "growth_velocity": "Moderate",
+      "competition_level": "Medium",
+      "saturation_risk": "Medium",
+      "best_platform": "Multi-Platform",
+      "thumbnail_text": "EVERYONE IS TRYING THIS",
+      "hashtags": [
+        "#Anthropic",
+        "#bought",
+        "#oneperson",
+        "#ContentCreator",
+        "#CreatorEconomy",
+        "#GoViral",
+        "#ViralScope"
+      ],
+      "hook_ideas": [
+        "This Anthropic bought one-person trend is everywhere",
+        "I tried Anthropic bought one-person for 7 days — here's what happened",
+        "Why Anthropic bought one-person is blowing up right now"
+      ],
+      "ai_analysis": "'Anthropic bought one-person' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is medium. Monitor momentum and test 2–3 content angles before scaling.",
+      "creator_insights": [
+        "Growth velocity is Moderate — publish within 48h to ride the wave",
+        "Competition is Medium — differentiate with a unique POV or niche angle",
+        "Saturation risk is Medium — find a micro-niche sub-angle to avoid saturation",
+        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
+      ],
+      "raw_signals": {
+        "signal_type": "ai_news",
+        "feed": "https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+faceless+channel",
+        "velocity_hint": "moderate",
+        "source_mentions": 1,
+        "merged_sources": [
+          "ai_creator_trends"
+        ],
+        "scoring": {
+          "keyword_popularity": 70.0,
+          "trend_velocity": 68,
+          "reddit_engagement": 45.0,
+          "youtube_position": 45.0,
+          "google_trends_rank": 48.0,
+          "tiktok_hashtag": 48.0,
+          "engagement_potential": 57.0,
+          "growth_score": 56.6,
+          "competition_score": 50.0,
+          "saturation_score": 45.0,
+          "creator_opportunity_score": 55.0,
+          "cross_source_boost": 0.0
+        }
+      },
+      "created_at": "2026-11-15T04:43:39.411669+00:00"
+    },
+    {
+      "title": "Linus Torvalds Wonders If Linux's AI-Prompted Patch Flood Has Peaked",
+      "category": "Creator",
+      "description": "<p>Article URL: <a href=\"https://linux.slashdot.org/story/26/11/14/0827227/linus-torvalds-wonders-if-linuxs-ai-prompted-patch-flood-has-peaked\">https://linux.slashdot.org/story/26/11/14/0827227/linus-",
+      "source": "ai_creator_trends",
+      "id": "4b2c3bcf-a974-4204-ac0b-0cbd4845e682",
+      "viral_score": 47,
+      "confidence_score": 49,
+      "growth_velocity": "Moderate",
+      "competition_level": "Medium",
+      "saturation_risk": "Low",
+      "best_platform": "Multi-Platform",
+      "thumbnail_text": "EVERYONE IS TRYING THIS",
+      "hashtags": [
+        "#Linus",
+        "#Torvalds",
+        "#Wonders",
+        "#ContentCreator",
+        "#CreatorEconomy",
+        "#GoViral",
+        "#ViralScope"
+      ],
+      "hook_ideas": [
+        "This Linus Torvalds Wonders trend is everywhere",
+        "I tried Linus Torvalds Wonders for 7 days — here's what happened",
+        "Why Linus Torvalds Wonders is blowing up right now"
+      ],
+      "ai_analysis": "'Linus Torvalds Wonders' shows moderate growth on Multi-Platform with viral score 47/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
+      "creator_insights": [
+        "Growth velocity is Moderate — publish within 48h to ride the wave",
+        "Competition is Medium — differentiate with a unique POV or niche angle",
+        "Saturation risk is Low — move fast before the niche fills up",
+        "Primary platform signal: Multi-Platform — optimize format for that algorithm"
+      ],
+      "raw_signals": {
+        "signal_type": "ai_news",
+        "feed": "https://hnrss.org/newest?q=AI+video+OR+AI+content+OR+faceless+channel",
+        "velocity_hint": "moderate",
+        "source_mentions": 1,
+        "merged_sources": [
+          "ai_creator_trends"
+        ],
+        "scoring": {
+          "keyword_popularity": 70.0,
+          "trend_velocity": 68,
+          "reddit_engagement": 45.0,
+          "youtube_position": 45.0,
+          "google_trends_rank": 48.0,
+          "tiktok_hashtag": 48.0,
+          "engagement_potential": 57.0,
+          "growth_score": 56.6,
+          "competition_score": 50.0,
+          "saturation_score": 44.0,
+          "creator_opportunity_score": 55.2,
+          "cross_source_boost": 0.0
+        }
+      },
+      "created_at": "2026-11-15T04:43:39.411678+00:00"
     },
     {
       "title": "Show HN: Customer Intelligence and Monetization Toolkit for Claude Code",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://github.com/Satvik-jain/customer-intelligence-toolkit\">https://github.com/Satvik-jain/customer-intelligence-toolkit</a></p>\n<p>Comments URL: <a href=\"https://news.ycomb",
       "source": "ai_creator_trends",
-      "id": "50265333-3e59-4ade-af75-7192dc447509",
+      "id": "06d34fce-831c-4f27-8059-962507255758",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -4643,14 +3129,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:09.710748+00:00"
+      "created_at": "2026-11-15T04:43:39.756216+00:00"
     },
     {
       "title": "Kalshi hiring a 'GTA VI Researcher' to livestream the game and study its economy",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://finance.yahoo.com/technology/article/kalshi-is-hiring-a-gta-vi-researcher-to-livestream-the-game-and-study-its-economy-110000519.html\">https://finance.yahoo.com/techno",
       "source": "ai_creator_trends",
-      "id": "fe12967f-b08c-4b36-9823-3bc79f77eb9c",
+      "id": "8b2cf64a-88e6-49e4-b119-cd3e3854451e",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -4702,14 +3188,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:09.710776+00:00"
+      "created_at": "2026-11-15T04:43:39.756234+00:00"
     },
     {
       "title": "Runway releases a 27B open-weight model for controlling real robots",
       "category": "Technology",
       "description": "<p>Article URL: <a href=\"https://runway.com/news/company-news/praxis-1-is-now-available\">https://runway.com/news/company-news/praxis-1-is-now-available</a></p>\n<p>Comments URL: <a href=\"https://news.y",
       "source": "ai_creator_trends",
-      "id": "392747f1-6c07-4c49-a198-b2a876a863d3",
+      "id": "cdc8b392-5bb9-4989-a488-e3fb5d428f83",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -4762,14 +3248,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.262437+00:00"
+      "created_at": "2026-11-15T04:43:40.081376+00:00"
     },
     {
       "title": "The last, best hope for space tourism just rolled onto a runway in Arizona",
       "category": "Technology",
       "description": "<p>Article URL: <a href=\"https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/\">https://arstechnica.com/space/2026/10/the-last-best-hope-for-",
       "source": "ai_creator_trends",
-      "id": "d3728198-e2c6-4fdc-a7be-4812d2a1f20d",
+      "id": "e0db34d1-7c10-4d64-85c2-6ba4c81eec4e",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -4822,14 +3308,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.262461+00:00"
+      "created_at": "2026-11-15T04:43:40.081399+00:00"
     },
     {
       "title": "Palantir adds three UK police forces to its beat with £10.1M deal",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://www.theregister.com/public-sector/2026/11/13/palantir-adds-three-uk-police-forces-to-its-beat-with-101m-deal/5309699\">https://www.theregister.com/public-sector/2026/11",
       "source": "ai_creator_trends",
-      "id": "fc67cb24-f93e-4139-886c-3edfe19c8373",
+      "id": "92a2002f-f6ea-42a1-a0f8-dbeb1d576ea0",
       "viral_score": 47,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -4881,36 +3367,36 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.620422+00:00"
+      "created_at": "2026-11-15T04:43:40.354466+00:00"
     },
     {
-      "title": "Ask HN: Do I own the code I write with the help of AI?",
+      "title": "Smart AI Keyboard: Translate",
       "category": "Creator",
-      "description": "<p>Hi folks, I wanted to ask this simple question: is the code I write with AI mine to license as I please? I hear from a lot of people that one can’t copyright works made with AI, can someone with kn",
+      "description": "<p>Article URL: <a href=\"https://play.google.com/store/apps/details?id=smart.ai.keyboard&hl=en_US\">https://play.google.com/store/apps/details?id=smart.ai.keyboard&hl=en_US</a></p>\n<p>Comments URL: <a",
       "source": "ai_creator_trends",
-      "id": "1755262d-5e24-41ee-81c6-b314f3d809be",
+      "id": "3a636e6e-c9a7-4bb7-af7a-f2e9e55944c8",
       "viral_score": 46,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
       "competition_level": "Medium",
       "saturation_risk": "Low",
       "best_platform": "Multi-Platform",
-      "thumbnail_text": "YOU NEED TO SEE THIS",
+      "thumbnail_text": "GOING VIRAL NOW",
       "hashtags": [
-        "#Ask",
-        "#own",
-        "#the",
+        "#Smart",
+        "#Keyboard",
+        "#Translate",
         "#ContentCreator",
         "#CreatorEconomy",
         "#GoViral",
         "#ViralScope"
       ],
       "hook_ideas": [
-        "I tried Ask own the for 7 days — here's what happened",
-        "Why Ask own the is blowing up right now",
-        "The Ask own the trend creators don't want you to miss"
+        "The Smart Keyboard Translate trend creators don't want you to miss",
+        "Stop scrolling — Smart Keyboard Translate is the next viral wave",
+        "POV: Smart Keyboard Translate changed everything"
       ],
-      "ai_analysis": "'Ask own the' shows moderate growth on Multi-Platform with viral score 46/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
+      "ai_analysis": "'Smart Keyboard Translate' shows moderate growth on Multi-Platform with viral score 46/99. Competition is medium and saturation risk is low. Monitor momentum and test 2–3 content angles before scaling.",
       "creator_insights": [
         "Growth velocity is Moderate — publish within 48h to ride the wave",
         "Competition is Medium — differentiate with a unique POV or niche angle",
@@ -4926,28 +3412,28 @@
           "ai_creator_trends"
         ],
         "scoring": {
-          "keyword_popularity": 66.0,
+          "keyword_popularity": 62.0,
           "trend_velocity": 68,
           "reddit_engagement": 45.0,
           "youtube_position": 45.0,
           "google_trends_rank": 48.0,
           "tiktok_hashtag": 48.0,
-          "engagement_potential": 56.0,
+          "engagement_potential": 55.0,
           "growth_score": 56.6,
           "competition_score": 50.0,
-          "saturation_score": 37.0,
-          "creator_opportunity_score": 56.4,
+          "saturation_score": 42.0,
+          "creator_opportunity_score": 55.1,
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:38:52.990188+00:00"
+      "created_at": "2026-11-15T04:43:39.411656+00:00"
     },
     {
       "title": "Beta Technologies Is Clearing the Runway for Electric Flight",
       "category": "Technology",
       "description": "<p>Article URL: <a href=\"https://spectrum.ieee.org/beta-technologies-electric-aircraft\">https://spectrum.ieee.org/beta-technologies-electric-aircraft</a></p>\n<p>Comments URL: <a href=\"https://news.yco",
       "source": "ai_creator_trends",
-      "id": "61209140-329e-4bcf-8896-fd95e1899d29",
+      "id": "e57585cf-5c27-4e03-8db1-1ff5b285167f",
       "viral_score": 46,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -5000,14 +3486,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.262473+00:00"
+      "created_at": "2026-11-15T04:43:40.081408+00:00"
     },
     {
       "title": "Victoria Secret Video Generator – Turn a photo into a runway video",
       "category": "Technology",
       "description": "<p>Article URL: <a href=\"https://victoriasecretvideo.com/\">https://victoriasecretvideo.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50162048\">https://news.ycombinator.co",
       "source": "ai_creator_trends",
-      "id": "31e18b30-0dac-42b2-a42d-91d9394aaac1",
+      "id": "87efa9fe-fcbc-4eab-8299-a9c5d11b8759",
       "viral_score": 46,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -5060,14 +3546,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.262484+00:00"
+      "created_at": "2026-11-15T04:43:40.081420+00:00"
     },
     {
       "title": "Nvidia's Huang turns to Paul Weiss, law firm that inked deal with Trump",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://www.reuters.com/legal/transactional/nvidias-huang-turns-paul-weiss-law-firm-that-inked-deal-with-trump-2026-11-13/\">https://www.reuters.com/legal/transactional/nvidias",
       "source": "ai_creator_trends",
-      "id": "282d7837-15ca-43db-af52-1eebbc18aeaa",
+      "id": "68428d1e-cacd-4e38-8262-ebd48fe914ad",
       "viral_score": 46,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -5119,14 +3605,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.620408+00:00"
+      "created_at": "2026-11-15T04:43:40.354457+00:00"
     },
     {
       "title": "SpaceX and Tesla could announce merger deal as soon as December",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://www.cnbc.com/video/2026/11/12/spacex-and-tesla-could-announce-merger-deal-as-soon-as-december-report.html\">https://www.cnbc.com/video/2026/11/12/spacex-and-tesla-could",
       "source": "ai_creator_trends",
-      "id": "57f2f719-1118-4cc8-853c-822689050274",
+      "id": "58976414-771c-4439-9146-70384f23023e",
       "viral_score": 46,
       "confidence_score": 49,
       "growth_velocity": "Moderate",
@@ -5178,14 +3664,14 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:10.620435+00:00"
+      "created_at": "2026-11-15T04:43:40.354474+00:00"
     },
     {
       "title": "YouTube Hype Points",
       "category": "Creator",
       "description": "<p>Article URL: <a href=\"https://support.google.com/youtube/answer/15509925?hl=en\">https://support.google.com/youtube/answer/15509925?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c",
       "source": "ai_creator_trends",
-      "id": "b27cdc2a-9e2a-4d74-b198-e0199b5b0130",
+      "id": "6df81cd7-5f9f-445f-8e9c-cbbcdcdca395",
       "viral_score": 45,
       "confidence_score": 48,
       "growth_velocity": "Moderate",
@@ -5237,7 +3723,7 @@
           "cross_source_boost": 0.0
         }
       },
-      "created_at": "2026-11-14T17:39:09.710763+00:00"
+      "created_at": "2026-11-15T04:43:39.756225+00:00"
     }
   ]
 }
